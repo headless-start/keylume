@@ -1,0 +1,57 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Keylume",
+  "version": "1.0.0",
+  "identifier": "dev.keylume.desktop",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:1420",
+    "beforeBuildCommand": "npm run build && node tools/third_party_notices.mjs",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": false,
+    "windows": [
+      {
+        "label": "main",
+        "title": "Keylume",
+        "width": 1280,
+        "height": 820,
+        "minWidth": 1024,
+        "minHeight": 680,
+        "center": true,
+        "visible": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src ipc: http://ipc.localhost; object-src 'none'; base-uri 'none'; form-action 'none'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "category": "Utility",
+    "shortDescription": "Local lighting and key control for your keyboard",
+    "longDescription": "Keylume controls RGB lighting, per-key colours, live effects, key remapping and macros for supported keyboards. Everything stays on your PC.",
+    "publisher": "Keylume",
+    "copyright": "© 2026 The Keylume contributors",
+    "licenseFile": "windows/README.txt",
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.ico", "icons/icon.png"],
+    "linux": {
+      "deb": {
+        "files": { "/usr/lib/udev/rules.d/70-keylume.rules": "../packaging/linux/70-keylume.rules" }
+      },
+      "appimage": { "bundleMediaFramework": false }
+    },
+    "windows": {
+      "nsis": {
+        "installMode": "currentUser",
+        "displayLanguageSelector": false,
+        "installerIcon": "icons/icon.ico",
+        "headerImage": "windows/header.bmp",
+        "sidebarImage": "windows/sidebar.bmp",
+        "installerHooks": "windows/installer-hooks.nsh"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Keylume: let the logged-in user talk to supported keyboards without root.
+# Installed by the .deb to /usr/lib/udev/rules.d/. After a manual install run:
+#   sudo udevadm control --reload-rules && sudo udevadm trigger
+# Epomaker TK68 (Rongyuan firmware). Its ids are Apple's (a wired Aluminium Keyboard has the
+# same ones), so the maker's string is matched too: an Apple keyboard gets no extra access.
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="05ac", ATTRS{idProduct}=="024f", ATTRS{manufacturer}=="[Rr][Oo][Yy][Uu][Aa][Nn]", MODE="0660", TAG+="uaccess"

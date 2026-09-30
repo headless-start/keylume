@@ -1,0 +1,104 @@
+{
+  "collection": "League of Legends",
+  "prefix": "lol",
+  "section": "Games",
+  "keys": [
+    { "role": "abilities", "keys": ["q", "w", "e", "r"] },
+    { "role": "summoner-spells", "keys": ["d", "f"] },
+    { "role": "items", "keys": ["1", "2", "3", "4", "5", "6", "7"] },
+    { "role": "recall", "keys": ["b"] },
+    { "role": "shop", "keys": ["p"] },
+    { "role": "camera", "keys": ["y"] },
+    { "role": "chat", "keys": ["enter"] }
+  ],
+  "themes": [
+    {
+      "id": "lol-blue-flank",
+      "name": "Blue Flank",
+      "description": "Icy blue steel pressing forward on the left flank",
+      "tags": ["blue", "silver", "cool", "flank"],
+      "stops": ["#eaf6ff", "#8ac8ff", "#3a7ae0", "#12245a"],
+      "base": "#050a20",
+      "accent": "#dcefff",
+      "animation": { "mode": "wave", "color": "#3a7ae0" },
+      "live": "flow"
+    },
+    {
+      "id": "lol-crimson-flank",
+      "name": "Crimson Flank",
+      "description": "Hot crimson banked in black on the right flank",
+      "tags": ["red", "black", "hot", "flank"],
+      "stops": ["#ffb0a0", "#ff5a3a", "#d01a10", "#4a0400"],
+      "base": "#1a0400",
+      "accent": "#ffcaa0",
+      "animation": { "mode": "meteor", "color": "#ff5a3a" },
+      "live": "lava"
+    },
+    {
+      "id": "lol-jungle-ambush",
+      "name": "Jungle Ambush",
+      "description": "Deep green cover breaking into a violet ambush",
+      "tags": ["green", "violet", "jungle", "ambush"],
+      "stops": ["#d0ffb0", "#6adf3a", "#1a7a2a", "#3a1a8a"],
+      "base": "#04160a",
+      "accent": "#b088ff",
+      "animation": { "mode": "snake", "color": "#6adf3a" },
+      "live": "trip"
+    },
+    {
+      "id": "lol-turret-ember",
+      "name": "Turret Ember",
+      "description": "Fiery orange cracking a tower's stone under siege",
+      "tags": ["orange", "red", "fire", "siege"],
+      "stops": ["#ffe0a0", "#ff9a30", "#e04a0a", "#601c00"],
+      "base": "#200a00",
+      "accent": "#ffcf8a",
+      "animation": { "mode": "converge", "color": "#e04a0a" },
+      "live": "lava"
+    },
+    {
+      "id": "lol-mystic-spring",
+      "name": "Mystic Spring",
+      "description": "Teal water welling into violet magic light",
+      "tags": ["teal", "violet", "magic", "spring"],
+      "stops": ["#c8fff0", "#3adfc0", "#4a6ae0", "#2a0a70"],
+      "base": "#050a1c",
+      "accent": "#a0e8ff",
+      "animation": { "mode": "circle-wave", "color": "#3adfc0" },
+      "live": "trip"
+    },
+    {
+      "id": "lol-golden-recall",
+      "name": "Golden Recall",
+      "description": "Golden light spiraling up like a hasty trip home",
+      "tags": ["gold", "white", "warm", "teleport"],
+      "stops": ["#ffffff", "#fff0b0", "#ffcc33", "#c98a00"],
+      "base": "#180c00",
+      "accent": "#ffffff",
+      "animation": { "mode": "dazzle", "color": "#ffcc33" },
+      "live": "flow"
+    },
+    {
+      "id": "lol-storm-watch",
+      "name": "Storm Watch",
+      "description": "Steel grey clouds crackling with a lightning watch",
+      "tags": ["grey", "blue", "storm", "lightning"],
+      "stops": ["#f0f6ff", "#a8c0e0", "#5a76c0", "#1a2040"],
+      "base": "#0a0e1c",
+      "accent": "#eaffff",
+      "animation": { "mode": "line-wave", "color": "#5a76c0" },
+      "live": "breathe"
+    },
+    {
+      "id": "lol-frost-spire",
+      "name": "Frost Spire",
+      "description": "Ice blue light climbing a tall frozen spire",
+      "tags": ["blue", "white", "ice", "spire"],
+      "stops": ["#ffffff", "#c8f0ff", "#6ab8ff", "#1a3a80"],
+      "base": "#040c20",
+      "accent": "#dff6ff",
+      "animation": { "mode": "raindrop", "color": "#6ab8ff" },
+      "live": "flow"
+    }
+  ]
+}

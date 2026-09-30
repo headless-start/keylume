@@ -1,0 +1,104 @@
+{
+  "collection": "Valorant",
+  "prefix": "val",
+  "section": "Games",
+  "keys": [
+    { "role": "movement", "keys": ["w", "a", "s", "d"] },
+    { "role": "abilities", "keys": ["c", "q", "e", "x"] },
+    { "role": "weapons", "keys": ["1", "2", "3"] },
+    { "role": "spike", "keys": ["4"] },
+    { "role": "use-reload", "keys": ["f", "r"] },
+    { "role": "stance", "keys": ["lshift", "lctrl", "space"] },
+    { "role": "comms", "keys": ["z", "v", "u"] }
+  ],
+  "themes": [
+    {
+      "id": "val-site-standoff",
+      "name": "Site Standoff",
+      "description": "Red alert light staring down a tense standoff",
+      "tags": ["red", "black", "tense", "tactical"],
+      "stops": ["#ff9090", "#ff2a2a", "#a20014", "#3a000a"],
+      "base": "#1a0004",
+      "accent": "#ffd0d0",
+      "animation": { "mode": "dazzle", "color": "#ff2a2a" },
+      "live": "breathe"
+    },
+    {
+      "id": "val-smoke-screen",
+      "name": "Smoke Screen",
+      "description": "Grey smoke curling around a cool cyan glow",
+      "tags": ["grey", "cyan", "smoke", "cool"],
+      "stops": ["#eafcff", "#b8d0e0", "#5c8ca0", "#1a2830"],
+      "base": "#0a1014",
+      "accent": "#d8f4ff",
+      "animation": { "mode": "sine-wave", "color": "#5c8ca0" },
+      "live": "flow"
+    },
+    {
+      "id": "val-flashpoint",
+      "name": "Flashpoint",
+      "description": "Blinding white flash cutting through yellow glare",
+      "tags": ["white", "yellow", "flash", "bright"],
+      "stops": ["#ffffff", "#fff6b0", "#ffe030", "#a08c00"],
+      "base": "#181400",
+      "accent": "#ffffff",
+      "animation": { "mode": "circle-wave", "color": "#ffe030" },
+      "live": "flow"
+    },
+    {
+      "id": "val-countdown-green",
+      "name": "Countdown Green",
+      "description": "Pulsing green counting down toward detonation",
+      "tags": ["green", "black", "pulse", "countdown"],
+      "stops": ["#c8ffb0", "#5aff5a", "#0ec02a", "#0a3a12"],
+      "base": "#031006",
+      "accent": "#eaffea",
+      "animation": { "mode": "reactive", "color": "#0ec02a" },
+      "live": "lava"
+    },
+    {
+      "id": "val-neon-duel",
+      "name": "Neon Duel",
+      "description": "Hot pink neon squaring off with electric cyan",
+      "tags": ["pink", "cyan", "neon", "duel"],
+      "stops": ["#ffb0f0", "#ff40d8", "#20e0ff", "#1040b0"],
+      "base": "#180a30",
+      "accent": "#a0f8ff",
+      "animation": { "mode": "kaleidoscope", "color": "#ff40d8" },
+      "live": "flow"
+    },
+    {
+      "id": "val-angled-peek",
+      "name": "Angled Peek",
+      "description": "Navy shadow easing into a crimson corner peek",
+      "tags": ["navy", "red", "shadow", "tactical"],
+      "stops": ["#ffb0a0", "#e0402a", "#1a2a5a", "#0a1030"],
+      "base": "#050810",
+      "accent": "#ffd0c0",
+      "animation": { "mode": "laser", "color": "#e0402a" },
+      "live": "breathe"
+    },
+    {
+      "id": "val-economy-round",
+      "name": "Economy Round",
+      "description": "Muted grey thrift glinting with careful gold",
+      "tags": ["grey", "gold", "muted", "tactical"],
+      "stops": ["#f0e8d0", "#c8b888", "#8a7a4a", "#3a3218"],
+      "base": "#0e0c08",
+      "accent": "#ffe9a0",
+      "animation": { "mode": "breathing", "color": "#c8b888" },
+      "live": "flow"
+    },
+    {
+      "id": "val-post-plant-hold",
+      "name": "Post-Plant Hold",
+      "description": "Teal calm holding an orange line after the plant",
+      "tags": ["teal", "orange", "hold", "tactical"],
+      "stops": ["#c8fff0", "#3adfc0", "#ff8a3a", "#7a2a00"],
+      "base": "#0a180c",
+      "accent": "#ffe0b0",
+      "animation": { "mode": "ripple", "color": "#ff8a3a" },
+      "live": "lava"
+    }
+  ]
+}

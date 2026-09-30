@@ -1,0 +1,33 @@
+[package]
+name = "keylume-app"
+description = "Keylume desktop app (Tauri shell around keylume-core)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+name = "keylume_app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+keylume-proto = { path = "../crates/keylume-proto" }
+keylume-device = { path = "../crates/keylume-device" }
+keylume-profiles = { path = "../crates/keylume-profiles" }
+keylume-live = { path = "../crates/keylume-live" }
+keylume-core = { path = "../crates/keylume-core" }
+serde.workspace = true
+serde_json.workspace = true
+tauri = { version = "2", features = ["tray-icon", "image-png"] }
+tauri-plugin-dialog = "2"
+tauri-plugin-opener = "2"
+tauri-plugin-global-shortcut = "2"
+tauri-plugin-autostart = "2"
+tauri-plugin-single-instance = "2"
+sysinfo = { version = "0.32", default-features = false, features = ["system"] }
+
+[target.'cfg(windows)'.dependencies]
+cpal = "0.15"
+windows = { version = "0.58", features = ["Win32_Graphics_Gdi", "Win32_Foundation", "Win32_System_Threading"] }

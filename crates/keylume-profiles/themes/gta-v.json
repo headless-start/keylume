@@ -1,0 +1,102 @@
+{
+  "collection": "GTA V",
+  "prefix": "gta",
+  "section": "Games",
+  "keys": [
+    { "role": "movement", "keys": ["w", "a", "s", "d"] },
+    { "role": "sprint-jump", "keys": ["lshift", "space"] },
+    { "role": "combat", "keys": ["r", "q", "lctrl"] },
+    { "role": "interact", "keys": ["e", "f"] },
+    { "role": "specials", "keys": ["caps", "up", "tab"] }
+  ],
+  "themes": [
+    {
+      "id": "gta-neon-strip",
+      "name": "Neon Strip",
+      "description": "Electric lime and hot magenta neon glowing over a night street",
+      "tags": ["green", "pink", "neon", "night"],
+      "stops": ["#e8ff6a", "#c8ff00", "#ff2ad0", "#4a0a5a"],
+      "base": "#140420",
+      "accent": "#e8ff6a",
+      "animation": { "mode": "dazzle", "color": "#ff2ad0" },
+      "live": "trip"
+    },
+    {
+      "id": "gta-heist-night",
+      "name": "Heist Night",
+      "description": "A blacked-out getaway car under a thin wash of gold streetlight",
+      "tags": ["black", "gold", "night", "stealth"],
+      "stops": ["#ffdf8a", "#d4a339", "#6b5220", "#241c0a"],
+      "base": "#100c08",
+      "accent": "#ffd24a",
+      "animation": { "mode": "converge", "color": "#d4a339" },
+      "live": "lava"
+    },
+    {
+      "id": "gta-wanted-lights",
+      "name": "Wanted Lights",
+      "description": "Flashing red and blue police lights sweeping a city block",
+      "tags": ["red", "blue", "police", "lights"],
+      "stops": ["#ff8080", "#ff2036", "#2a8cff", "#0a1a70"],
+      "base": "#0a0418",
+      "accent": "#ffffff",
+      "animation": { "mode": "reactive", "color": "#ff2036" },
+      "live": "trip"
+    },
+    {
+      "id": "gta-sunset-strip",
+      "name": "Sunset Strip",
+      "description": "Palm-lined boulevard glowing orange, pink and purple at dusk",
+      "tags": ["orange", "pink", "purple", "sunset"],
+      "stops": ["#ffe08a", "#ff8a4a", "#ff4a9a", "#6a2ad0"],
+      "base": "#1a0a30",
+      "accent": "#ffd0f0",
+      "animation": { "mode": "wave", "color": "#ff8a4a" },
+      "live": "flow"
+    },
+    {
+      "id": "gta-high-roller-gold",
+      "name": "High Roller Gold",
+      "description": "Casino gold and deep felt green under bright ceiling lights",
+      "tags": ["gold", "green", "casino", "luxury"],
+      "stops": ["#fff2b0", "#ffcc33", "#1f8a4a", "#0a3a1a"],
+      "base": "#120c02",
+      "accent": "#ffffff",
+      "animation": { "mode": "circle-wave", "color": "#ffcc33" },
+      "live": "breathe"
+    },
+    {
+      "id": "gta-spray-paint",
+      "name": "Spray Paint",
+      "description": "A wall of vivid spray-can colour, amber dripping into magenta",
+      "tags": ["orange", "pink", "graffiti", "street"],
+      "stops": ["#fff27a", "#ff8a1a", "#ff2ad0", "#3a0a6a"],
+      "base": "#1c0a04",
+      "accent": "#ffffff",
+      "animation": { "mode": "kaleidoscope", "color": "#ff8a1a" },
+      "live": "trip"
+    },
+    {
+      "id": "gta-chrome-cruiser",
+      "name": "Chrome Cruiser",
+      "description": "Polished chrome bodywork catching amber streetlight at night",
+      "tags": ["silver", "amber", "car", "night"],
+      "stops": ["#ffffff", "#e8d8b0", "#c9962e", "#3a2a10"],
+      "base": "#0c0a06",
+      "accent": "#ffe9a0",
+      "animation": { "mode": "sine-wave", "color": "#c9962e" },
+      "live": "flow"
+    },
+    {
+      "id": "gta-beachfront-teal",
+      "name": "Beachfront Teal",
+      "description": "Turquoise shoreline glowing beneath a hot pink evening sky",
+      "tags": ["teal", "pink", "beach", "evening"],
+      "stops": ["#d0fff5", "#5df0d5", "#0e969f", "#ff58c6"],
+      "base": "#02121a",
+      "accent": "#ffe0f5",
+      "animation": { "mode": "ripple", "color": "#5df0d5" },
+      "live": "flow"
+    }
+  ]
+}

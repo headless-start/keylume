@@ -1,0 +1,102 @@
+{
+  "collection": "Rainbow Six Siege",
+  "prefix": "r6",
+  "section": "Games",
+  "keys": [
+    { "role": "movement", "keys": ["w", "a", "s", "d"] },
+    { "role": "stance", "keys": ["lshift", "c", "lctrl"] },
+    { "role": "lean", "keys": ["q", "e"] },
+    { "role": "combat", "keys": ["r", "v", "space"] },
+    { "role": "gadgets-comms", "keys": ["g", "f", "z"] }
+  ],
+  "themes": [
+    {
+      "id": "r6-breach-charge",
+      "name": "Breach Charge",
+      "description": "Warning orange wired to a charge ready to blow the wall",
+      "tags": ["orange", "black", "tactical", "explosive"],
+      "stops": ["#ffcf7a", "#ff8a1a", "#ff3300", "#2a1400"],
+      "base": "#1a0c02",
+      "accent": "#fff066",
+      "animation": { "mode": "laser", "color": "#ff3300" },
+      "live": "flow"
+    },
+    {
+      "id": "r6-thermal-sight",
+      "name": "Thermal Sight",
+      "description": "Heat-vision green picking out shapes in a pitch-black room",
+      "tags": ["green", "black", "tactical", "night"],
+      "stops": ["#e0ffb0", "#8bff3d", "#2a9a1e", "#0a2a08"],
+      "base": "#081a08",
+      "accent": "#c8ff7a",
+      "animation": { "mode": "reactive", "color": "#8bff3d" },
+      "live": "trip"
+    },
+    {
+      "id": "r6-ops-room",
+      "name": "Ops Room",
+      "description": "Brass and amber glow of a map table lit for a late briefing",
+      "tags": ["amber", "brown", "tactical", "brass"],
+      "stops": ["#ffe9a0", "#d8a23a", "#8a5a1a", "#3a2408"],
+      "base": "#140c04",
+      "accent": "#ffd24a",
+      "animation": { "mode": "converge", "color": "#d8a23a" },
+      "live": "breathe"
+    },
+    {
+      "id": "r6-shield-steel",
+      "name": "Shield Steel",
+      "description": "Riot-shield grey banded with a cold tactical blue",
+      "tags": ["grey", "blue", "tactical", "steel"],
+      "stops": ["#e0eaff", "#9fb8e0", "#4a6aa0", "#1a2a4a"],
+      "base": "#0a1020",
+      "accent": "#c8d8ff",
+      "animation": { "mode": "wave", "color": "#4a6aa0" },
+      "live": "flow"
+    },
+    {
+      "id": "r6-grey-haze",
+      "name": "Grey Haze",
+      "description": "Billowing grey haze swallowing a stripped-out room whole",
+      "tags": ["grey", "white", "tactical", "haze"],
+      "stops": ["#ffffff", "#d8d8e0", "#8a8a98", "#3a3a44"],
+      "base": "#101014",
+      "accent": "#ffffff",
+      "animation": { "mode": "rain-down", "color": "#d8d8e0" },
+      "live": "breathe"
+    },
+    {
+      "id": "r6-laser-sight",
+      "name": "Laser Sight",
+      "description": "A thin red beam cutting a clean line through the dark",
+      "tags": ["red", "black", "tactical", "laser"],
+      "stops": ["#ff9a9a", "#ff2a2a", "#a00010", "#5a0010"],
+      "base": "#1a0206",
+      "accent": "#ff5a5a",
+      "animation": { "mode": "line-wave", "color": "#ff2a2a" },
+      "live": "flow"
+    },
+    {
+      "id": "r6-night-raid",
+      "name": "Night Raid",
+      "description": "Navy stealth fatigues moving low under a moonless sky",
+      "tags": ["navy", "black", "tactical", "night"],
+      "stops": ["#8aa0ff", "#4a5ad0", "#1a2a7a", "#0a1030"],
+      "base": "#04081a",
+      "accent": "#c8d4ff",
+      "animation": { "mode": "snake", "color": "#4a5ad0" },
+      "live": "flow"
+    },
+    {
+      "id": "r6-hazard-stripes",
+      "name": "Hazard Stripes",
+      "description": "Black and warning yellow taped across a breached doorway",
+      "tags": ["yellow", "black", "tactical", "hazard"],
+      "stops": ["#fff6a0", "#ffe030", "#8a7000", "#2a2200"],
+      "base": "#141000",
+      "accent": "#fff066",
+      "animation": { "mode": "dazzle", "color": "#ffe030" },
+      "live": "flow"
+    }
+  ]
+}

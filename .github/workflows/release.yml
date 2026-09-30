@@ -1,0 +1,94 @@
+name: Release build
+
+# Builds the Windows installer and the Linux .deb and AppImage, with SHA-256 checksums and the
+# third-party notices, and signs the Windows app and installer when a code-signing certificate is
+# set up (repository secrets; see docs/RELEASING.md). It never publishes anything: the files are
+# workflow artifacts, and a GitHub release is made from them by hand, after checking them.
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    env:
+      # optional: base64 of a .pfx and its password (docs/RELEASING.md lists other ways to sign)
+      WINDOWS_CERTIFICATE: ${{ secrets.WINDOWS_CERTIFICATE }}
+      WINDOWS_CERTIFICATE_PASSWORD: ${{ secrets.WINDOWS_CERTIFICATE_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Signing, when a certificate is configured
+        id: sign
+        shell: pwsh
+        run: |
+          if (-not $env:WINDOWS_CERTIFICATE) {
+            Write-Output "::warning::No code-signing certificate is configured: this build is unsigned."
+            exit 0
+          }
+          $pfx = Join-Path $env:RUNNER_TEMP "keylume-signing.pfx"
+          [IO.File]::WriteAllBytes($pfx, [Convert]::FromBase64String($env:WINDOWS_CERTIFICATE))
+          "KEYLUME_SIGNING_PFX=$pfx" >> $env:GITHUB_ENV
+          $script = Join-Path $env:GITHUB_WORKSPACE "tools/sign.ps1"
+          $config = Join-Path $env:RUNNER_TEMP "sign.json"
+          @{ bundle = @{ windows = @{ signCommand = "pwsh -NoProfile -File $script %1" } } } | ConvertTo-Json -Depth 5 | Out-File -Encoding utf8 $config
+          "args=--config $config" >> $env:GITHUB_OUTPUT
+      # runs `npm run build` and tools/third_party_notices.mjs first (tauri.conf.json)
+      - run: npx tauri build ${{ steps.sign.outputs.args }}
+      - name: Collect, with checksums
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force release | Out-Null
+          Copy-Item target/release/bundle/nsis/*.exe release/
+          Copy-Item src-tauri/THIRD-PARTY-NOTICES.txt release/
+          # hash first, then write: Out-File creates its file before the listing runs
+          $sums = Get-ChildItem release -File | Sort-Object Name | ForEach-Object {
+            "$((Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower())  $($_.Name)"
+          }
+          $sums | Out-File -Encoding ascii release/SHA256SUMS.txt
+          Get-Content release/SHA256SUMS.txt
+          Get-AuthenticodeSignature release/*.exe | Format-Table Status, Path -AutoSize
+      - uses: actions/upload-artifact@v7
+        with:
+          name: keylume-windows-${{ github.ref_name }}
+          path: release/
+          retention-days: 30
+
+  linux:
+    # the oldest supported Ubuntu, so the .deb and the AppImage run on as many systems as possible
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      # WebKitGTK, the tray, SVG icons, udev for hidapi, and patchelf for the AppImage
+      - run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev libudev-dev patchelf file
+      - run: npm ci
+      # runs `npm run build` and tools/third_party_notices.mjs first (tauri.conf.json)
+      - run: npx tauri build --bundles deb appimage
+      - name: Collect, with checksums
+        run: |
+          mkdir -p release
+          cp target/release/bundle/deb/*.deb target/release/bundle/appimage/*.AppImage release/
+          cp src-tauri/THIRD-PARTY-NOTICES.txt release/THIRD-PARTY-NOTICES-linux.txt
+          cd release && sha256sum -- *.deb *.AppImage THIRD-PARTY-NOTICES-linux.txt > SHA256SUMS-linux.txt && cat SHA256SUMS-linux.txt
+      - uses: actions/upload-artifact@v7
+        with:
+          name: keylume-linux-${{ github.ref_name }}
+          path: release/
+          retention-days: 30

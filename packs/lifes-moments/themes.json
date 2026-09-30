@@ -1,0 +1,204 @@
+{
+  "collection": "Life's Moments",
+  "prefix": "moment",
+  "themes": [
+    {
+      "id": "moment-ivory-vows",
+      "name": "Ivory Vows",
+      "description": "Ivory and champagne warm into a blush rose glow, like a wedding morning",
+      "tags": ["occasion", "wedding", "ivory", "blush", "romantic"],
+      "stops": ["#fffaf0", "#ffdba0", "#ffb8d0", "#a8506a"],
+      "base": "#260c16",
+      "accent": "#ffffff",
+      "animation": { "mode": "breathing", "color": "#ff9ec2" },
+      "live": "breathe"
+    },
+    {
+      "id": "moment-engagement-glow",
+      "name": "Engagement Glow",
+      "description": "Rose gold and diamond-white sparkle warm into blush, for a proposal moment",
+      "tags": ["occasion", "engagement", "rose-gold", "sparkle", "romantic"],
+      "stops": ["#ffffff", "#ffe9d6", "#f2b8a0", "#e08a72", "#b85a58"],
+      "base": "#220e10",
+      "accent": "#ffd27a",
+      "animation": { "mode": "ripple", "color": "#ff9070" },
+      "live": "flow"
+    },
+    {
+      "id": "moment-paper-anniversary",
+      "name": "Paper Anniversary",
+      "description": "Kraft-paper cream and warm amber deepen to copper, for a first anniversary",
+      "tags": ["occasion", "anniversary", "paper", "cream", "amber"],
+      "stops": ["#fff6e0", "#f0d8a8", "#e0a468", "#c07850"],
+      "base": "#20140c",
+      "accent": "#ffe8b0",
+      "animation": { "mode": "wave", "color": "#ffb060" },
+      "live": "breathe"
+    },
+    {
+      "id": "moment-silver-anniversary",
+      "name": "Silver Anniversary",
+      "description": "Platinum white and icy periwinkle blue, for a shimmering silver anniversary",
+      "tags": ["occasion", "anniversary", "silver", "icy", "elegant"],
+      "stops": ["#ffffff", "#dce8ff", "#a8c0e8", "#6a84c0"],
+      "base": "#0c1024",
+      "accent": "#ffd9a0",
+      "animation": { "mode": "circle-wave", "color": "#7ea0ff" },
+      "live": "trip"
+    },
+    {
+      "id": "moment-golden-anniversary",
+      "name": "Golden Anniversary",
+      "description": "Rich gold and warm amber deepen to bronze, for a golden fiftieth anniversary",
+      "tags": ["occasion", "anniversary", "gold", "amber", "milestone"],
+      "stops": ["#fff4d0", "#ffd873", "#ffb830", "#c8860c"],
+      "base": "#1c1004",
+      "accent": "#ffffff",
+      "animation": { "mode": "meteor", "color": "#ffcf40" },
+      "live": "lava"
+    },
+    {
+      "id": "moment-cap-and-gown",
+      "name": "Cap and Gown",
+      "description": "Navy blue deepens under bright gold, like a cap tossed at graduation",
+      "tags": ["occasion", "graduation", "navy", "gold", "academic"],
+      "stops": ["#ffe27a", "#ffb300", "#4058c0", "#22308c", "#10164a"],
+      "base": "#080a28",
+      "accent": "#ffffff",
+      "animation": { "mode": "dazzle", "color": "#ffd54a" },
+      "live": "flow"
+    },
+    {
+      "id": "moment-first-day",
+      "name": "First Day",
+      "description": "Sky blue brightens into confident navy, with a lime spark for day one",
+      "tags": ["occasion", "first-job", "blue", "fresh-start", "career"],
+      "stops": ["#eaf6ff", "#8ad0ff", "#2f8fe0", "#123a70"],
+      "base": "#060e1e",
+      "accent": "#c8ff5a",
+      "animation": { "mode": "reactive", "color": "#c8ff5a" },
+      "live": "trip"
+    },
+    {
+      "id": "moment-welcome-home",
+      "name": "Welcome Home",
+      "description": "Terracotta and warm cream glow, with a sage-green touch for a new home",
+      "tags": ["occasion", "new-home", "terracotta", "cozy", "warm"],
+      "stops": ["#fff2d8", "#ffcb8a", "#f0904a", "#c05a30", "#7a9a52"],
+      "base": "#200e06",
+      "accent": "#fff4e6",
+      "animation": { "mode": "converge", "color": "#ff8a4a" },
+      "live": "lava"
+    },
+    {
+      "id": "moment-pink-arrival",
+      "name": "Pink Arrival",
+      "description": "Soft blush brightens into bold pink and white, for a little one on the way",
+      "tags": ["occasion", "baby", "pink", "nursery", "sweet"],
+      "stops": ["#fff5fa", "#ffd0e6", "#ff8ac0", "#e0508a"],
+      "base": "#240a16",
+      "accent": "#ffffff",
+      "animation": { "mode": "raindrop", "color": "#ff8ac0" },
+      "live": "breathe"
+    },
+    {
+      "id": "moment-blue-arrival",
+      "name": "Blue Arrival",
+      "description": "Powder blue rises into bright sky blue and white, for a little one on the way",
+      "tags": ["occasion", "baby", "blue", "nursery", "sweet"],
+      "stops": ["#f5fbff", "#c8e8ff", "#6ab0ff", "#2a70d8"],
+      "base": "#0a1428",
+      "accent": "#ffffff",
+      "animation": { "mode": "wave", "color": "#6ab0ff" },
+      "live": "flow"
+    },
+    {
+      "id": "moment-new-arrival",
+      "name": "New Arrival",
+      "description": "Buttery yellow and soft sage green meet gentle lilac, for a new arrival",
+      "tags": ["occasion", "baby", "pastel", "neutral", "sweet"],
+      "stops": ["#fffbe6", "#fff0a0", "#c8e8a0", "#c8b0f0"],
+      "base": "#141c10",
+      "accent": "#ffffff",
+      "animation": { "mode": "circle-wave", "color": "#ffe878" },
+      "live": "trip"
+    },
+    {
+      "id": "moment-next-chapter",
+      "name": "Next Chapter",
+      "description": "Sunset amber and coral fade into a calm teal dusk, for retirement's start",
+      "tags": ["occasion", "retirement", "amber", "teal", "relaxed"],
+      "stops": ["#fff0c8", "#ffb35a", "#ff7a5a", "#2a7a8a"],
+      "base": "#04141a",
+      "accent": "#ffdca0",
+      "animation": { "mode": "breathing", "color": "#ff8a68" },
+      "live": "lava"
+    },
+    {
+      "id": "moment-corner-office",
+      "name": "Corner Office",
+      "description": "Deep burgundy rises into bright gold, for a well-earned promotion",
+      "tags": ["occasion", "promotion", "gold", "burgundy", "achievement"],
+      "stops": ["#ffe0a0", "#ffb347", "#c0405a", "#4a1420"],
+      "base": "#1c0610",
+      "accent": "#ffdb70",
+      "animation": { "mode": "meteor", "color": "#ffcf60" },
+      "live": "flow"
+    },
+    {
+      "id": "moment-open-highway",
+      "name": "Open Highway",
+      "description": "Sunset orange and coral fade into a dusky indigo horizon, for a road trip",
+      "tags": ["occasion", "road-trip", "sunset", "adventure", "highway"],
+      "stops": ["#fff0c0", "#ff9a4a", "#ff5a78", "#a83aa0", "#302a6a"],
+      "base": "#0a0820",
+      "accent": "#ffffff",
+      "animation": { "mode": "snake", "color": "#ff9a4a" },
+      "live": "trip"
+    },
+    {
+      "id": "moment-pencils-down",
+      "name": "Pencils Down",
+      "description": "Lemon, mint, cyan and pink brighten up like confetti, for pencils-down relief",
+      "tags": ["occasion", "exams", "confetti", "bright", "celebration"],
+      "stops": ["#faff70", "#7dffb0", "#5ad0ff", "#ff6ad0"],
+      "base": "#120a20",
+      "accent": "#ffffff",
+      "animation": { "mode": "dazzle", "color": "#ff6ad0" },
+      "live": "breathe"
+    },
+    {
+      "id": "moment-fond-farewell",
+      "name": "Fond Farewell",
+      "description": "Amber string-lights fade into a violet dusk, for a warm farewell party",
+      "tags": ["occasion", "farewell", "amber", "violet", "bittersweet"],
+      "stops": ["#ffe8c0", "#ffb37a", "#e07a9a", "#6a4a9a"],
+      "base": "#140a24",
+      "accent": "#ffcf9a",
+      "animation": { "mode": "sine-wave", "color": "#ff9ec0" },
+      "live": "lava"
+    },
+    {
+      "id": "moment-reunion-night",
+      "name": "Reunion Night",
+      "description": "Amber string-lights meet a deep teal night, for an old-friends reunion",
+      "tags": ["occasion", "reunion", "amber", "teal", "nostalgic"],
+      "stops": ["#fff6e0", "#ffcf7a", "#ff9a5a", "#3aa8a0", "#0f5a5a"],
+      "base": "#041818",
+      "accent": "#fff0d0",
+      "animation": { "mode": "line-wave", "color": "#ffb84a" },
+      "live": "lava"
+    },
+    {
+      "id": "moment-victory-toast",
+      "name": "Victory Toast",
+      "description": "Champagne gold sparkles with pink and blue, for a victory-night toast",
+      "tags": ["occasion", "celebration", "gold", "party", "friends"],
+      "stops": ["#fff4d0", "#ffd54a", "#ff5aa0", "#4a90ff"],
+      "base": "#100a24",
+      "accent": "#ffffff",
+      "animation": { "mode": "laser", "color": "#ffd54a" },
+      "live": "flow"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[package]
+name = "keylume-cli"
+description = "Command-line control and diagnostics for keylume keyboards."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+keylume-proto = { path = "../keylume-proto" }
+keylume-device = { path = "../keylume-device" }
+keylume-live = { path = "../keylume-live" }
+keylume-core = { path = "../keylume-core" }
+keylume-profiles = { path = "../keylume-profiles" }
+serde_json.workspace = true
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+hidapi = { version = "2.6", default-features = false }
+
+[dev-dependencies]
+tempfile = "3"

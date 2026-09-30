@@ -1,0 +1,101 @@
+{
+  "collection": "Apex Legends",
+  "prefix": "apex",
+  "section": "Games",
+  "keys": [
+    { "role": "movement", "keys": ["w", "a", "s", "d", "space", "lshift", "c", "lctrl"] },
+    { "role": "abilities", "keys": ["q", "z"] },
+    { "role": "combat", "keys": ["e", "r", "v"] },
+    { "role": "interface", "keys": ["tab", "m"] }
+  ],
+  "themes": [
+    {
+      "id": "apex-ring-closing",
+      "name": "Ring Closing",
+      "description": "A red-orange ring tightening down before the final push",
+      "tags": ["red", "orange", "danger", "ring"],
+      "stops": ["#ffe9a0", "#ff9a2e", "#ff3300", "#7a0000"],
+      "base": "#1c0400",
+      "accent": "#ffffff",
+      "animation": { "mode": "converge", "color": "#ff3300" },
+      "live": "lava"
+    },
+    {
+      "id": "apex-beacon-blue",
+      "name": "Beacon Blue",
+      "description": "Cyan signal light pulsing through cold tech blue",
+      "tags": ["blue", "cyan", "tech", "signal"],
+      "stops": ["#eaffff", "#7dfaff", "#2fb8ff", "#123a8a"],
+      "base": "#04102c",
+      "accent": "#eaffff",
+      "animation": { "mode": "breathing", "color": "#2fb8ff" },
+      "live": "breathe"
+    },
+    {
+      "id": "apex-crown-gold",
+      "name": "Crown Gold",
+      "description": "Polished gold and white for a hard-earned crown",
+      "tags": ["gold", "white", "shine", "crown"],
+      "stops": ["#ffffff", "#ffe9a0", "#ffcc33", "#a06a10"],
+      "base": "#1c1404",
+      "accent": "#ffffff",
+      "animation": { "mode": "circle-wave", "color": "#ffcc33" },
+      "live": "flow"
+    },
+    {
+      "id": "apex-canyon-rust",
+      "name": "Canyon Rust",
+      "description": "Sun-bleached rust and tan carved through a dry canyon",
+      "tags": ["orange", "tan", "rust", "canyon"],
+      "stops": ["#ffdca0", "#e0a25a", "#b06a2a", "#5a2e10"],
+      "base": "#160a04",
+      "accent": "#ffd98a",
+      "animation": { "mode": "snake", "color": "#e0a25a" },
+      "live": "flow"
+    },
+    {
+      "id": "apex-arena-neon",
+      "name": "Arena Neon",
+      "description": "Purple and cyan neon signage buzzing over an arena floor",
+      "tags": ["purple", "cyan", "neon", "arena"],
+      "stops": ["#eaffff", "#00e0ff", "#c86bff", "#6a1ad0"],
+      "base": "#12042a",
+      "accent": "#eaffff",
+      "animation": { "mode": "dazzle", "color": "#00e0ff" },
+      "live": "trip"
+    },
+    {
+      "id": "apex-raptor-crest",
+      "name": "Raptor Crest",
+      "description": "A bird of prey's crest in ember orange and pale cream",
+      "tags": ["orange", "red", "cream", "crest"],
+      "stops": ["#fff3d6", "#ffb04a", "#ff5a1a", "#a01a00"],
+      "base": "#1a0700",
+      "accent": "#fff3d6",
+      "animation": { "mode": "reactive", "color": "#ff5a1a" },
+      "live": "flow"
+    },
+    {
+      "id": "apex-ice-cave",
+      "name": "Ice Cave",
+      "description": "Pale frost blue glowing through a deep ice cavern",
+      "tags": ["blue", "white", "grey", "ice"],
+      "stops": ["#ffffff", "#dff3ff", "#8fc7e8", "#3a5a72"],
+      "base": "#0a161e",
+      "accent": "#ffffff",
+      "animation": { "mode": "raindrop", "color": "#8fc7e8" },
+      "live": "breathe"
+    },
+    {
+      "id": "apex-high-orbit",
+      "name": "High Orbit",
+      "description": "Dawn pink and orange streaking across a rising horizon",
+      "tags": ["pink", "orange", "dawn", "sky"],
+      "stops": ["#ffe3c2", "#ff9d6b", "#ff5f9e", "#7a2a6a"],
+      "base": "#1c0a20",
+      "accent": "#ffe3c2",
+      "animation": { "mode": "sine-wave", "color": "#ff5f9e" },
+      "live": "flow"
+    }
+  ]
+}

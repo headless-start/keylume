@@ -1,0 +1,270 @@
+{
+  "collection": "Zodiac",
+  "prefix": "zodiac",
+  "themes": [
+    {
+      "id": "zodiac-aries",
+      "name": "Aries",
+      "description": "Blazing scarlet and gold, the ram's headlong fire of spring",
+      "tags": ["zodiac", "aries", "fire-sign", "red", "gold"],
+      "stops": ["#fff0a0", "#ffb030", "#ff5010", "#c81818"],
+      "base": "#1c0604",
+      "accent": "#ffffff",
+      "animation": { "mode": "meteor", "color": "#ff5010" },
+      "live": "flow"
+    },
+    {
+      "id": "zodiac-taurus",
+      "name": "Taurus",
+      "description": "Spring green settling into earthy moss, steady and unhurried",
+      "tags": ["zodiac", "taurus", "earth-sign", "green", "rose"],
+      "stops": ["#eaffc0", "#8cc850", "#3a6c20"],
+      "base": "#0a1206",
+      "accent": "#ffb0c0",
+      "animation": { "mode": "breathing", "color": "#a0e060" },
+      "live": "breathe"
+    },
+    {
+      "id": "zodiac-gemini",
+      "name": "Gemini",
+      "description": "Bright yellow paired with cool silver-blue, two minds at once",
+      "tags": ["zodiac", "gemini", "air-sign", "yellow", "blue"],
+      "stops": ["#fff8c0", "#ffe060", "#c8e8ff", "#80b0e0"],
+      "base": "#0c1018",
+      "accent": "#ffffff",
+      "animation": { "mode": "sine-wave", "color": "#ffe060" },
+      "live": "flow"
+    },
+    {
+      "id": "zodiac-cancer",
+      "name": "Cancer",
+      "description": "Moonlit silver falling into deep sea green, pulled by the tide",
+      "tags": ["zodiac", "cancer", "water-sign", "silver", "green"],
+      "stops": ["#f4fbff", "#90d0c0", "#307868"],
+      "base": "#041614",
+      "accent": "#ffffff",
+      "animation": { "mode": "wave", "color": "#78c0b0" },
+      "live": "breathe"
+    },
+    {
+      "id": "zodiac-leo",
+      "name": "Leo",
+      "description": "Golden mane blazing into deep orange, a pride that won't dim",
+      "tags": ["zodiac", "leo", "fire-sign", "gold", "orange"],
+      "stops": ["#fff8c0", "#ffcf50", "#ff9020", "#c05010"],
+      "base": "#1a0c02",
+      "accent": "#ffffff",
+      "animation": { "mode": "dazzle", "color": "#ffcf50" },
+      "live": "lava"
+    },
+    {
+      "id": "zodiac-virgo",
+      "name": "Virgo",
+      "description": "Cream wheat fading into quiet moss green, patient and exact",
+      "tags": ["zodiac", "virgo", "earth-sign", "green", "cream"],
+      "stops": ["#f8f4d8", "#e0d8a8", "#b8c078", "#8ca060", "#5c7838"],
+      "base": "#0a0e06",
+      "accent": "#ffffff",
+      "animation": { "mode": "breathing", "color": "#a0b068" },
+      "live": "breathe"
+    },
+    {
+      "id": "zodiac-libra",
+      "name": "Libra",
+      "description": "Soft pink weighed against cool blue in perfectly equal measure",
+      "tags": ["zodiac", "libra", "air-sign", "pink", "blue"],
+      "stops": ["#ffe0ec", "#ff9fc0", "#90c0ff", "#4868c0"],
+      "base": "#0c0c1a",
+      "accent": "#ffffff",
+      "animation": { "mode": "converge", "color": "#ff9fc0" },
+      "live": "flow"
+    },
+    {
+      "id": "zodiac-scorpio",
+      "name": "Scorpio",
+      "description": "Venomous crimson sinking into near-black violet, a quiet sting",
+      "tags": ["zodiac", "scorpio", "water-sign", "red", "violet"],
+      "stops": ["#ff8090", "#ff5060", "#d01830", "#7a1030", "#380a1c"],
+      "base": "#100208",
+      "accent": "#ff2040",
+      "animation": { "mode": "reactive", "color": "#ff1030" },
+      "live": "lava"
+    },
+    {
+      "id": "zodiac-sagittarius",
+      "name": "Sagittarius",
+      "description": "A golden arrow loosed through deep violet-blue dusk",
+      "tags": ["zodiac", "sagittarius", "fire-sign", "gold", "violet"],
+      "stops": ["#fff4c0", "#ffb050", "#7050c0", "#301868"],
+      "base": "#08041c",
+      "accent": "#ffd070",
+      "animation": { "mode": "laser", "color": "#ffb050" },
+      "live": "flow"
+    },
+    {
+      "id": "zodiac-capricorn",
+      "name": "Capricorn",
+      "description": "Amber and copper climbing steadily up a slate mountain face",
+      "tags": ["zodiac", "capricorn", "earth-sign", "amber", "slate"],
+      "stops": ["#f4e4b8", "#b09050", "#4a3c28"],
+      "base": "#0c0a06",
+      "accent": "#ffffff",
+      "animation": { "mode": "converge", "color": "#d4a860" },
+      "live": "breathe"
+    },
+    {
+      "id": "zodiac-aquarius",
+      "name": "Aquarius",
+      "description": "Electric cyan poured from a bright silver-blue current",
+      "tags": ["zodiac", "aquarius", "air-sign", "cyan", "blue"],
+      "stops": ["#e0feff", "#80e8ff", "#30b0ff", "#1858c0"],
+      "base": "#04101c",
+      "accent": "#ffffff",
+      "animation": { "mode": "circle-wave", "color": "#30b0ff" },
+      "live": "flow"
+    },
+    {
+      "id": "zodiac-pisces",
+      "name": "Pisces",
+      "description": "Sea-teal and soft violet swimming in opposite currents",
+      "tags": ["zodiac", "pisces", "water-sign", "teal", "violet"],
+      "stops": ["#d0fff8", "#80f0d8", "#60e0c0", "#9090e8", "#4848a0"],
+      "base": "#08081c",
+      "accent": "#ffffff",
+      "animation": { "mode": "sine-wave", "color": "#60e0c0" },
+      "live": "trip"
+    },
+    {
+      "id": "zodiac-rat",
+      "name": "Rat",
+      "description": "Slate grey and charcoal quickened by a flicker of lucky gold",
+      "tags": ["zodiac", "chinese-zodiac", "rat", "grey", "gold"],
+      "stops": ["#fff4c0", "#d8b860", "#606878", "#282c3c"],
+      "base": "#08090c",
+      "accent": "#ffd870",
+      "animation": { "mode": "meteor", "color": "#d8b860" },
+      "live": "flow"
+    },
+    {
+      "id": "zodiac-bronze-ox",
+      "name": "Bronze Ox",
+      "description": "Warm bronze and cream, the tireless patience of the plough",
+      "tags": ["zodiac", "chinese-zodiac", "ox", "bronze", "cream"],
+      "stops": ["#fff4d8", "#d0a860", "#6c4820"],
+      "base": "#140c04",
+      "accent": "#ffffff",
+      "animation": { "mode": "wave", "color": "#c08840" },
+      "live": "breathe"
+    },
+    {
+      "id": "zodiac-tiger",
+      "name": "Tiger",
+      "description": "Molten orange striped with black, bold and unmistakable",
+      "tags": ["zodiac", "chinese-zodiac", "tiger", "orange", "black"],
+      "stops": ["#ffcf70", "#ff9020", "#e85010", "#2a1206"],
+      "base": "#1a0602",
+      "accent": "#ffffff",
+      "animation": { "mode": "dazzle", "color": "#ff9020" },
+      "live": "lava"
+    },
+    {
+      "id": "zodiac-rabbit",
+      "name": "Rabbit",
+      "description": "Moon-pale jade and soft lilac, gentle as a moonlit hop",
+      "tags": ["zodiac", "chinese-zodiac", "rabbit", "jade", "lilac"],
+      "stops": ["#f4fff0", "#c8f0c0", "#a8d8d0", "#d8c8ff", "#9880e0"],
+      "base": "#0c0818",
+      "accent": "#ffffff",
+      "animation": { "mode": "breathing", "color": "#c8f0c0" },
+      "live": "breathe"
+    },
+    {
+      "id": "zodiac-dragon",
+      "name": "Dragon",
+      "description": "Imperial gold igniting into deep red, power without restraint",
+      "tags": ["zodiac", "chinese-zodiac", "dragon", "gold", "red"],
+      "stops": ["#fff4c0", "#ffcf50", "#ff6020", "#a01808"],
+      "base": "#1a0602",
+      "accent": "#ffe070",
+      "animation": { "mode": "kaleidoscope", "color": "#ffcf50" },
+      "live": "lava"
+    },
+    {
+      "id": "zodiac-snake",
+      "name": "Snake",
+      "description": "Emerald scales shimmering down into deep jungle shadow",
+      "tags": ["zodiac", "chinese-zodiac", "snake", "emerald", "green"],
+      "stops": ["#c8ffb0", "#40b868", "#0c4828"],
+      "base": "#04140a",
+      "accent": "#ffffff",
+      "animation": { "mode": "snake", "color": "#70e070" },
+      "live": "flow"
+    },
+    {
+      "id": "zodiac-horse",
+      "name": "Horse",
+      "description": "Chestnut and gold racing across an open amber plain",
+      "tags": ["zodiac", "chinese-zodiac", "horse", "chestnut", "gold"],
+      "stops": ["#fff0c0", "#ffb860", "#c87830", "#7a4418"],
+      "base": "#180c04",
+      "accent": "#ffffff",
+      "animation": { "mode": "line-wave", "color": "#ffb860" },
+      "live": "flow"
+    },
+    {
+      "id": "zodiac-goat",
+      "name": "Goat",
+      "description": "Lilac wildflowers scattered across a gentle hillside green",
+      "tags": ["zodiac", "chinese-zodiac", "goat", "lilac", "green"],
+      "stops": ["#f4ecff", "#d0b8ff", "#c8e0a0", "#b8d888", "#78a850"],
+      "base": "#0a0c06",
+      "accent": "#ffffff",
+      "animation": { "mode": "wave", "color": "#d0b8ff" },
+      "live": "breathe"
+    },
+    {
+      "id": "zodiac-monkey",
+      "name": "Monkey",
+      "description": "Playful gold sparking against deep mischievous violet",
+      "tags": ["zodiac", "chinese-zodiac", "monkey", "gold", "violet"],
+      "stops": ["#fff0a0", "#ffc850", "#7050c0", "#301878"],
+      "base": "#0a0420",
+      "accent": "#ffffff",
+      "animation": { "mode": "reactive", "color": "#ffc850" },
+      "live": "trip"
+    },
+    {
+      "id": "zodiac-rooster",
+      "name": "Rooster",
+      "description": "Dawn's fire-red and gold plumage crowing over the horizon",
+      "tags": ["zodiac", "chinese-zodiac", "rooster", "red", "gold"],
+      "stops": ["#fff8d0", "#ffa050", "#ff3020"],
+      "base": "#1a0802",
+      "accent": "#ffffff",
+      "animation": { "mode": "circle-wave", "color": "#ff8040" },
+      "live": "flow"
+    },
+    {
+      "id": "zodiac-dog",
+      "name": "Dog",
+      "description": "Loyal hearth-red glowing warm against faithful amber-brown",
+      "tags": ["zodiac", "chinese-zodiac", "dog", "red", "amber"],
+      "stops": ["#ffd8a0", "#ff9850", "#d85820", "#7a2810"],
+      "base": "#160602",
+      "accent": "#ffffff",
+      "animation": { "mode": "raindrop", "color": "#ff9850" },
+      "live": "flow"
+    },
+    {
+      "id": "zodiac-pig",
+      "name": "Pig",
+      "description": "Blush pink and prosperity gold, plenty overflowing",
+      "tags": ["zodiac", "chinese-zodiac", "pig", "pink", "gold"],
+      "stops": ["#ffe4f0", "#ffc0dc", "#ffb8d0", "#ffd888", "#e0a850"],
+      "base": "#180c10",
+      "accent": "#ffffff",
+      "animation": { "mode": "rain-down", "color": "#ffb8d0" },
+      "live": "breathe"
+    }
+  ]
+}

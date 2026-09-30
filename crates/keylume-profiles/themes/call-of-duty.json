@@ -1,0 +1,105 @@
+{
+  "collection": "Call of Duty",
+  "prefix": "cod",
+  "section": "Games",
+  "keys": [
+    { "role": "movement", "keys": ["w", "a", "s", "d", "space", "lshift"] },
+    { "role": "stance", "keys": ["c", "lctrl"] },
+    { "role": "weapons", "keys": ["1", "2", "b"] },
+    { "role": "equipment", "keys": ["q", "e", "g", "x"] },
+    { "role": "reload", "keys": ["r"] },
+    { "role": "interact", "keys": ["f"] },
+    { "role": "melee", "keys": ["v"] },
+    { "role": "comms", "keys": ["tab", "z"] }
+  ],
+  "themes": [
+    {
+      "id": "cod-night-optics",
+      "name": "Night Optics",
+      "description": "Phosphor green glowing through a scope in pure black",
+      "tags": ["green", "black", "night", "tactical"],
+      "stops": ["#c8ffb0", "#6dff3a", "#1fa028", "#0a4a12"],
+      "base": "#04160a",
+      "accent": "#eaffe0",
+      "animation": { "mode": "reactive", "color": "#6dff3a" },
+      "live": "flow"
+    },
+    {
+      "id": "cod-dune-signal",
+      "name": "Dune Signal",
+      "description": "Sun-bleached olive and sand under a hard desert sky",
+      "tags": ["tan", "olive", "desert", "signal"],
+      "stops": ["#ffe9b0", "#d9b25a", "#8a9a4a", "#4a5a20"],
+      "base": "#141a08",
+      "accent": "#7fe0ff",
+      "animation": { "mode": "wave", "color": "#e0b060" },
+      "live": "flow"
+    },
+    {
+      "id": "cod-tracer-line",
+      "name": "Tracer Line",
+      "description": "Bright tracer fire arcing orange-red through black night",
+      "tags": ["orange", "red", "black", "night"],
+      "stops": ["#fff0b0", "#ffb020", "#ff4a10", "#a01000"],
+      "base": "#180600",
+      "accent": "#ffffff",
+      "animation": { "mode": "laser", "color": "#ff4a10" },
+      "live": "lava"
+    },
+    {
+      "id": "cod-frost-line",
+      "name": "Frost Line",
+      "description": "Ice white and glacier blue for a snowbound patrol",
+      "tags": ["white", "blue", "ice", "snow"],
+      "stops": ["#ffffff", "#cdeeff", "#6fc3ff", "#1f5f9e"],
+      "base": "#081422",
+      "accent": "#eaffff",
+      "animation": { "mode": "raindrop", "color": "#6fc3ff" },
+      "live": "breathe"
+    },
+    {
+      "id": "cod-flare-signal",
+      "name": "Flare Signal",
+      "description": "A red-orange flare burning through dusk violet smoke",
+      "tags": ["red", "orange", "purple", "flare"],
+      "stops": ["#ffe6a0", "#ff9a2e", "#ff3300", "#5a1060"],
+      "base": "#1a0518",
+      "accent": "#ff5a1a",
+      "animation": { "mode": "meteor", "color": "#ff3300" },
+      "live": "lava"
+    },
+    {
+      "id": "cod-outage-city",
+      "name": "Outage City",
+      "description": "Sodium streetlights glowing over a powerless city block",
+      "tags": ["orange", "blue", "urban", "night"],
+      "stops": ["#ffe6a0", "#ffb347", "#26355e", "#0b1226"],
+      "base": "#050912",
+      "accent": "#ffcf6b",
+      "animation": { "mode": "dazzle", "color": "#ffb347" },
+      "live": "trip"
+    },
+    {
+      "id": "cod-steel-fleet",
+      "name": "Steel Fleet",
+      "description": "Battleship grey and foam white cutting through cold water",
+      "tags": ["grey", "blue", "white", "naval"],
+      "stops": ["#eef5ff", "#b7c9dd", "#5f7a99", "#233248"],
+      "base": "#0a121c",
+      "accent": "#dff0ff",
+      "animation": { "mode": "wave", "color": "#b7c9dd" },
+      "live": "flow"
+    },
+    {
+      "id": "cod-jungle-static",
+      "name": "Jungle Static",
+      "description": "Amber radio static crackling through dense jungle green",
+      "tags": ["amber", "green", "jungle", "static"],
+      "stops": ["#ffe9a0", "#ffb020", "#3a8a1a", "#123a10"],
+      "base": "#08160a",
+      "accent": "#ffe066",
+      "animation": { "mode": "sine-wave", "color": "#ffb020" },
+      "live": "trip"
+    }
+  ]
+}

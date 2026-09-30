@@ -1,0 +1,34 @@
+name: Support my keyboard
+description: Ask for a keyboard Keylume doesn't know yet (and help verify it).
+labels: [keyboard]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keyboards are described as data (docs/DEVICES.md). A new one needs its details, and an owner who can try it safely with a backup first.
+  - type: input
+    id: model
+    attributes:
+      label: Maker and model
+      placeholder: Epomaker TH80
+    validations:
+      required: true
+  - type: textarea
+    id: list
+    attributes:
+      label: What `keylume-cli list` says with it plugged in
+      description: Its USB ids and names, and why Keylume doesn't use it.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: vendor-app
+    attributes:
+      label: The maker's own lighting app
+      placeholder: EPOMAKER Driver, Windows Dynamic Lighting, none, …
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Trying it
+      options:
+        - label: I can try development builds on it, with a backup first, and report back.

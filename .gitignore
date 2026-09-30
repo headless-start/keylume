@@ -1,0 +1,15 @@
+/target
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+*.log
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+*.tsbuildinfo
+
+# the browser preview library is generated (npm run fixtures); too big to commit
+public/mock/library.json
+# written before each app build (tools/third_party_notices.mjs)
+src-tauri/THIRD-PARTY-NOTICES.txt

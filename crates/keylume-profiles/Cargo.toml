@@ -1,0 +1,12 @@
+[package]
+name = "keylume-profiles"
+description = "Lighting profile model and the generated built-in profile library."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+keylume-proto = { path = "../keylume-proto" }
+keylume-live = { path = "../keylume-live" }
+serde.workspace = true
+serde_json.workspace = true

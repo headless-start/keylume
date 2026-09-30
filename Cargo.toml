@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = ["crates/keylume-proto", "crates/keylume-device", "crates/keylume-profiles", "crates/keylume-live", "crates/keylume-core", "crates/keylume-cli", "src-tauri"]
+default-members = ["crates/keylume-proto", "crates/keylume-device", "crates/keylume-profiles", "crates/keylume-live", "crates/keylume-core", "crates/keylume-cli"]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+authors = ["The Keylume contributors"]
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"

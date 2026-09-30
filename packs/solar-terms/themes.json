@@ -1,0 +1,270 @@
+{
+  "collection": "Solar Terms",
+  "prefix": "solar",
+  "themes": [
+    {
+      "id": "solar-beginning-of-spring",
+      "name": "Beginning of Spring",
+      "description": "Plum blossom pink breaking through the last snow of winter",
+      "tags": ["spring", "seasonal", "pink", "green", "thaw"],
+      "stops": ["#fff2f8", "#ff9ed6", "#9dffb0", "#4fc8ff", "#26428c"],
+      "base": "#0a1030",
+      "accent": "#ffffff",
+      "animation": { "mode": "wave", "color": "#ff9ed6" },
+      "live": "flow"
+    },
+    {
+      "id": "solar-rain-water",
+      "name": "Rain Water",
+      "description": "Soft grey rain and silver mist waking the soil for spring",
+      "tags": ["spring", "seasonal", "rain", "green", "misty"],
+      "stops": ["#eaf8ff", "#a8d8ff", "#63c9c2", "#2f8f6a", "#1b3b57"],
+      "base": "#081018",
+      "accent": "#c8ff9a",
+      "animation": { "mode": "rain-down", "color": "#a8d8ff" },
+      "live": "breathe"
+    },
+    {
+      "id": "solar-waking-insects",
+      "name": "Waking Insects",
+      "description": "Awakening of Insects: spring thunder and fresh green, near early March",
+      "tags": ["spring", "seasonal", "green", "yellow", "energetic"],
+      "stops": ["#fbffa0", "#c6ff3c", "#ff8fc0", "#5b2a99"],
+      "base": "#100a20",
+      "accent": "#fff26a",
+      "animation": { "mode": "reactive", "color": "#c6ff3c" },
+      "live": "trip"
+    },
+    {
+      "id": "solar-spring-equinox",
+      "name": "Spring Equinox",
+      "description": "Equal light and warmth as day and night balance in spring",
+      "tags": ["spring", "seasonal", "balance", "green", "gold"],
+      "stops": ["#fff7e0", "#ffd76a", "#9dffa0", "#5ec8ff", "#355fae"],
+      "base": "#0c1224",
+      "accent": "#ffffff",
+      "animation": { "mode": "breathing", "color": "#ffd76a" },
+      "live": "flow"
+    },
+    {
+      "id": "solar-clear-and-bright",
+      "name": "Clear and Bright",
+      "description": "Clear skies and fresh willow green under pale spring sun",
+      "tags": ["spring", "seasonal", "green", "blue", "clear"],
+      "stops": ["#fff8dc", "#c8f26a", "#5ad0ff", "#2a5bb0"],
+      "base": "#081428",
+      "accent": "#ffffff",
+      "animation": { "mode": "sine-wave", "color": "#5ad0ff" },
+      "live": "breathe"
+    },
+    {
+      "id": "solar-grain-rain",
+      "name": "Grain Rain",
+      "description": "Late spring rain deepening young rice fields to vivid green",
+      "tags": ["spring", "seasonal", "green", "rain", "fresh"],
+      "stops": ["#eafff0", "#8fffa8", "#28b06a", "#1a6a8a", "#123a52"],
+      "base": "#04140c",
+      "accent": "#ffe98a",
+      "animation": { "mode": "raindrop", "color": "#8fffa8" },
+      "live": "breathe"
+    },
+    {
+      "id": "solar-beginning-of-summer",
+      "name": "Beginning of Summer",
+      "description": "Pomegranate red blossom against lush new summer green",
+      "tags": ["summer", "seasonal", "green", "red", "warm"],
+      "stops": ["#fff6c0", "#ff5a4a", "#7de84a", "#1fae7a", "#123f78"],
+      "base": "#031c12",
+      "accent": "#ffffff",
+      "animation": { "mode": "converge", "color": "#ff5a4a" },
+      "live": "lava"
+    },
+    {
+      "id": "solar-grain-buds",
+      "name": "Grain Buds",
+      "description": "Wheat grains swelling gold-green in the early summer haze",
+      "tags": ["summer", "seasonal", "gold", "green", "field"],
+      "stops": ["#fffbd0", "#f0e37a", "#b8d24a", "#5a9e3a", "#2c5a2a"],
+      "base": "#0a1406",
+      "accent": "#fff29a",
+      "animation": { "mode": "line-wave", "color": "#f0e37a" },
+      "live": "flow"
+    },
+    {
+      "id": "solar-grain-in-ear",
+      "name": "Grain in Ear",
+      "description": "Ripe wheat gold and dry amber under the year's brightest sun",
+      "tags": ["summer", "seasonal", "gold", "amber", "harvest"],
+      "stops": ["#fffbe0", "#ffe066", "#ffab2e", "#c9711a", "#7a3d0f"],
+      "base": "#180c02",
+      "accent": "#fff6c0",
+      "animation": { "mode": "laser", "color": "#ffe066" },
+      "live": "trip"
+    },
+    {
+      "id": "solar-summer-solstice",
+      "name": "Summer Solstice",
+      "description": "Blazing white-gold noon on the year's longest, brightest day",
+      "tags": ["summer", "seasonal", "gold", "blue", "bright"],
+      "stops": ["#fffceb", "#fff066", "#5be0ff", "#1c8fe0", "#123a6e"],
+      "base": "#02142c",
+      "accent": "#ffffff",
+      "animation": { "mode": "circle-wave", "color": "#fff066" },
+      "live": "flow"
+    },
+    {
+      "id": "solar-minor-heat",
+      "name": "Minor Heat",
+      "description": "Cicada green shade against the amber haze of building heat",
+      "tags": ["summer", "seasonal", "orange", "green", "hot"],
+      "stops": ["#fff0c0", "#ffc24a", "#ff7a2e", "#3fae5a", "#1a5a38"],
+      "base": "#160c02",
+      "accent": "#fff4c8",
+      "animation": { "mode": "dazzle", "color": "#ffc24a" },
+      "live": "lava"
+    },
+    {
+      "id": "solar-major-heat",
+      "name": "Major Heat",
+      "description": "Fierce orange-red sun shimmering over cool teal water",
+      "tags": ["summer", "seasonal", "red", "orange", "hot"],
+      "stops": ["#fffde0", "#ffcf3a", "#ff6a1a", "#e0301a", "#0a8f9e"],
+      "base": "#1c0800",
+      "accent": "#ffffff",
+      "animation": { "mode": "meteor", "color": "#ff6a1a" },
+      "live": "trip"
+    },
+    {
+      "id": "solar-beginning-of-autumn",
+      "name": "Beginning of Autumn",
+      "description": "First cool breeze turning summer green to gold at the edges",
+      "tags": ["autumn", "seasonal", "gold", "green", "cool"],
+      "stops": ["#fff3d0", "#ffcf7a", "#e8a23c", "#7a9e4a", "#2f4a2a"],
+      "base": "#120c04",
+      "accent": "#fff0c8",
+      "animation": { "mode": "snake", "color": "#ffcf7a" },
+      "live": "lava"
+    },
+    {
+      "id": "solar-end-of-heat",
+      "name": "End of Heat",
+      "description": "Late heat fading into amber sunset and cool violet dusk",
+      "tags": ["autumn", "seasonal", "orange", "violet", "dusk"],
+      "stops": ["#ffe9c0", "#ffab5a", "#e8683a", "#8a4a8a", "#2a1a4a"],
+      "base": "#0c0618",
+      "accent": "#ffd8a0",
+      "animation": { "mode": "reactive-off", "color": "#ffab5a" },
+      "live": "breathe"
+    },
+    {
+      "id": "solar-white-dew",
+      "name": "White Dew",
+      "description": "Cool silver dew beading on green grass in the first chill",
+      "tags": ["autumn", "seasonal", "teal", "dew", "cool"],
+      "stops": ["#ffffff", "#c8f6e0", "#6fd6b0", "#3a86b8", "#1f3f6e"],
+      "base": "#04121c",
+      "accent": "#ffffff",
+      "animation": { "mode": "ripple", "color": "#6fd6b0" },
+      "live": "breathe"
+    },
+    {
+      "id": "solar-autumn-equinox",
+      "name": "Autumn Equinox",
+      "description": "Amber gold light balanced against cooling blue at autumn's midpoint",
+      "tags": ["autumn", "seasonal", "amber", "blue", "balance"],
+      "stops": ["#fff3da", "#ffb84a", "#d9722e", "#4a76b0", "#22345c"],
+      "base": "#0a0c1c",
+      "accent": "#ffffff",
+      "animation": { "mode": "kaleidoscope", "color": "#ffb84a" },
+      "live": "flow"
+    },
+    {
+      "id": "solar-cold-dew",
+      "name": "Cold Dew",
+      "description": "Chrysanthemum gold against icy blue as the cold deepens",
+      "tags": ["autumn", "seasonal", "gold", "blue", "cold"],
+      "stops": ["#f0faff", "#ffdd8a", "#ff9a3a", "#3a92b0", "#1c3f66"],
+      "base": "#04141e",
+      "accent": "#ffffff",
+      "animation": { "mode": "wave", "color": "#ffdd8a" },
+      "live": "trip"
+    },
+    {
+      "id": "solar-frosts-descent",
+      "name": "Frost's Descent",
+      "description": "Persimmon orange against silver frost and deep maroon leaves",
+      "tags": ["autumn", "seasonal", "orange", "frost", "maroon"],
+      "stops": ["#fbffff", "#ffb072", "#ff7a2e", "#8a2a2a", "#2a1830"],
+      "base": "#100a16",
+      "accent": "#ffffff",
+      "animation": { "mode": "dazzle", "color": "#ffb072" },
+      "live": "lava"
+    },
+    {
+      "id": "solar-beginning-of-winter",
+      "name": "Beginning of Winter",
+      "description": "Warm lantern amber glowing in the deepening indigo dusk",
+      "tags": ["winter", "seasonal", "blue", "amber", "dusk"],
+      "stops": ["#eaf3ff", "#9fc6ff", "#4a78c8", "#1a1f4a"],
+      "base": "#050a20",
+      "accent": "#f0a24a",
+      "animation": { "mode": "ripple", "color": "#9fc6ff" },
+      "live": "flow"
+    },
+    {
+      "id": "solar-minor-snow",
+      "name": "Minor Snow",
+      "description": "Light snow flurries drifting over a pale grey-blue sky",
+      "tags": ["winter", "seasonal", "blue", "white", "snow"],
+      "stops": ["#ffffff", "#dbeeff", "#8fb8e0", "#3a6a4a", "#1a2c4a"],
+      "base": "#080e1c",
+      "accent": "#ffffff",
+      "animation": { "mode": "rain-down", "color": "#dbeeff" },
+      "live": "lava"
+    },
+    {
+      "id": "solar-major-snow",
+      "name": "Major Snow",
+      "description": "Heavy snowfall deepening from icy blue to sapphire night",
+      "tags": ["winter", "seasonal", "blue", "sapphire", "snow"],
+      "stops": ["#ffffff", "#cfe6ff", "#5aa0e8", "#1c4aa0", "#0e1c48"],
+      "base": "#040a22",
+      "accent": "#ffffff",
+      "animation": { "mode": "meteor", "color": "#5aa0e8" },
+      "live": "trip"
+    },
+    {
+      "id": "solar-solstice-snowfall",
+      "name": "Solstice Snowfall",
+      "description": "Winter Solstice: the year's longest night, near December 21st",
+      "tags": ["winter", "seasonal", "indigo", "violet", "solstice"],
+      "stops": ["#eef4ff", "#b7c9ff", "#6a6adf", "#332a72", "#160f3a"],
+      "base": "#0a0726",
+      "accent": "#ff9a3a",
+      "animation": { "mode": "breathing", "color": "#6a6adf" },
+      "live": "breathe"
+    },
+    {
+      "id": "solar-minor-cold",
+      "name": "Minor Cold",
+      "description": "River ice pale teal, warmed by a small hearth-ember glow",
+      "tags": ["winter", "seasonal", "teal", "ice", "cold"],
+      "stops": ["#eafffa", "#98e8e0", "#4ec8c0", "#1e7a8a", "#0d2a3f"],
+      "base": "#03141a",
+      "accent": "#ffb060",
+      "animation": { "mode": "circle-wave", "color": "#4ec8c0" },
+      "live": "flow"
+    },
+    {
+      "id": "solar-major-cold",
+      "name": "Major Cold",
+      "description": "The coldest depth of indigo night, pierced by plum-blossom pink",
+      "tags": ["winter", "seasonal", "indigo", "pink", "cold"],
+      "stops": ["#ffffff", "#cfe0ff", "#5f78c0", "#241c4a"],
+      "base": "#0a0820",
+      "accent": "#ff8fc2",
+      "animation": { "mode": "converge", "color": "#ff8fc2" },
+      "live": "lava"
+    }
+  ]
+}

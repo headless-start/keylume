@@ -1,0 +1,50 @@
+name: Something doesn't work
+description: Keylume does something wrong, crashes, or doesn't find your keyboard.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please leave personal details (your name, user folder, game account IDs, gamer tag) out of what you paste.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: How to make it happen again, one step per line.
+      placeholder: |
+        1. Open Library → Games
+        2. Click a design
+        3. …
+  - type: input
+    id: version
+    attributes:
+      label: Keylume version
+      description: Settings → About shows it.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Operating system
+      placeholder: Windows 11, Ubuntu 24.04, …
+    validations:
+      required: true
+  - type: input
+    id: keyboard
+    attributes:
+      label: Keyboard
+      description: Its name, or "demo keyboard".
+      placeholder: Epomaker TK68
+  - type: textarea
+    id: list
+    attributes:
+      label: What `keylume-cli list` says (if your keyboard isn't found)
+      render: text

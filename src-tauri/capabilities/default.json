@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Keylume's main window: its own commands, events, and yes/no questions. File dialogs are opened by the app's commands, never by the window.",
+  "windows": ["main"],
+  "permissions": ["core:event:default", "dialog:allow-message"]
+}

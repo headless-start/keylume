@@ -1,0 +1,104 @@
+{
+  "collection": "Overwatch 2",
+  "prefix": "ow",
+  "section": "Games",
+  "keys": [
+    { "role": "movement", "keys": ["w", "a", "s", "d"] },
+    { "role": "abilities", "keys": ["lshift", "e", "q"] },
+    { "role": "combat", "keys": ["v", "r", "f"] },
+    { "role": "stance", "keys": ["space", "lctrl"] },
+    { "role": "comms", "keys": ["c", "z", "x", "t"] },
+    { "role": "chat", "keys": ["enter"] },
+    { "role": "scoreboard", "keys": ["tab"] }
+  ],
+  "themes": [
+    {
+      "id": "ow-payload-push",
+      "name": "Payload Push",
+      "description": "Bright orange cargo glow rolling past a blue line",
+      "tags": ["orange", "blue", "push", "escort"],
+      "stops": ["#ffe0a0", "#ff9a30", "#2a8cff", "#0a2a70"],
+      "base": "#0a1428",
+      "accent": "#ffffff",
+      "animation": { "mode": "wave", "color": "#ff9a30" },
+      "live": "flow"
+    },
+    {
+      "id": "ow-overtime-pulse",
+      "name": "Overtime Pulse",
+      "description": "Urgent red pulse racing against a white clock",
+      "tags": ["red", "white", "urgent", "pulse"],
+      "stops": ["#ffffff", "#ffb0a0", "#ff2a2a", "#6a0000"],
+      "base": "#1c0000",
+      "accent": "#ffffff",
+      "animation": { "mode": "reactive", "color": "#ff2a2a" },
+      "live": "breathe"
+    },
+    {
+      "id": "ow-capture-point",
+      "name": "Capture Point",
+      "description": "Neutral grey turning gold as a point is claimed",
+      "tags": ["grey", "gold", "neutral", "capture"],
+      "stops": ["#f0f0f0", "#d0c090", "#a08040", "#4a3a18"],
+      "base": "#100e08",
+      "accent": "#ffe9a0",
+      "animation": { "mode": "converge", "color": "#d0c090" },
+      "live": "flow"
+    },
+    {
+      "id": "ow-biotic-bloom",
+      "name": "Biotic Bloom",
+      "description": "Healing green light blooming soft and bright",
+      "tags": ["green", "white", "healing", "bloom"],
+      "stops": ["#eaffea", "#8aff8a", "#2adf5a", "#0a5a20"],
+      "base": "#031c0a",
+      "accent": "#c8ffd8",
+      "animation": { "mode": "circle-wave", "color": "#2adf5a" },
+      "live": "breathe"
+    },
+    {
+      "id": "ow-energy-barrier",
+      "name": "Energy Barrier",
+      "description": "Cyan shield light rippling under steady pressure",
+      "tags": ["cyan", "blue", "shield", "energy"],
+      "stops": ["#eafcff", "#5cd0ff", "#1a8ce0", "#0a2a5a"],
+      "base": "#04142a",
+      "accent": "#d8f6ff",
+      "animation": { "mode": "ripple", "color": "#5cd0ff" },
+      "live": "trip"
+    },
+    {
+      "id": "ow-ultimate-charge",
+      "name": "Ultimate Charge",
+      "description": "White light charging gold at full power",
+      "tags": ["white", "gold", "charge", "power"],
+      "stops": ["#ffffff", "#fff0b0", "#ffb830", "#8a5a00"],
+      "base": "#241800",
+      "accent": "#ffffff",
+      "animation": { "mode": "dazzle", "color": "#ffb830" },
+      "live": "lava"
+    },
+    {
+      "id": "ow-team-clash",
+      "name": "Team Clash",
+      "description": "Electric blue collides with a bold yellow rivalry",
+      "tags": ["blue", "yellow", "rivalry", "clash"],
+      "stops": ["#eaf4ff", "#3a8cff", "#ffe030", "#a08000"],
+      "base": "#04102a",
+      "accent": "#ffffff",
+      "animation": { "mode": "sine-wave", "color": "#3a8cff" },
+      "live": "flow"
+    },
+    {
+      "id": "ow-teleport-flash",
+      "name": "Teleport Flash",
+      "description": "Violet light flashing white through a portal",
+      "tags": ["violet", "white", "portal", "flash"],
+      "stops": ["#f4eaff", "#b088ff", "#6a2ae0", "#2a0a6a"],
+      "base": "#0c0430",
+      "accent": "#ffffff",
+      "animation": { "mode": "laser", "color": "#6a2ae0" },
+      "live": "trip"
+    }
+  ]
+}

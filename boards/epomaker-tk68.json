@@ -1,0 +1,37 @@
+{
+  "id": "epomaker-tk68",
+  "name": "Epomaker TK68",
+  "maker": "Epomaker",
+  "driver": "rongyuan",
+  "support": "verified",
+  "note": "Verified on firmware 3.04 (reported as 772).",
+  "layout": "epomaker-tk68",
+  "usb": {
+    "vid": "05AC",
+    "pid": "024F",
+    "interface": 0,
+    "usagePage": "0001",
+    "usage": "0006",
+    "manufacturer": "ROYUAN",
+    "products": ["Acrylic68"],
+    "featureReport": 64
+  },
+  "features": {
+    "perKey": true,
+    "pictureLayers": 3,
+    "effects": [
+      "off", "static", "breathing", "spectrum", "wave", "ripple", "raindrop", "snake", "reactive", "converge", "sine-wave",
+      "kaleidoscope", "line-wave", "user-picture", "laser", "circle-wave", "dazzle", "rain-down", "meteor", "reactive-off",
+      "music-bars", "screen-sync", "music-pulse"
+    ],
+    "hostDriven": false,
+    "sideLight": true,
+    "live": true,
+    "keymap": true,
+    "macros": true,
+    "onboardProfiles": 3,
+    "settings": true,
+    "backup": true,
+    "readBack": true
+  }
+}

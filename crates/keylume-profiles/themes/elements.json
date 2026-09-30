@@ -1,0 +1,281 @@
+{
+  "collection": "Elements",
+  "prefix": "element",
+  "themes": [
+    {
+      "id": "element-fire",
+      "name": "Fire",
+      "description": "Blazing orange core burning down through red to a smouldering ember",
+      "tags": ["element", "fire", "classical", "orange", "red"],
+      "stops": ["#fff090", "#ffb020", "#ff5010", "#a01808"],
+      "base": "#1a0602",
+      "accent": "#ffffff",
+      "animation": { "mode": "meteor", "color": "#ff5010" },
+      "live": "lava"
+    },
+    {
+      "id": "element-water",
+      "name": "Water",
+      "description": "Clear aqua deepening into ocean blue, endlessly flowing",
+      "tags": ["element", "water", "classical", "aqua", "blue"],
+      "stops": ["#e0fbff", "#50c0f0", "#1050a0"],
+      "base": "#041020",
+      "accent": "#ffffff",
+      "animation": { "mode": "wave", "color": "#50c0f0" },
+      "live": "flow"
+    },
+    {
+      "id": "element-earth",
+      "name": "Earth",
+      "description": "Warm loam and copper soil settling into a deep mossy floor",
+      "tags": ["element", "earth", "classical", "brown", "moss"],
+      "stops": ["#f0e0a8", "#c8a060", "#8a6838", "#4c6030"],
+      "base": "#0c0a04",
+      "accent": "#ffffff",
+      "animation": { "mode": "converge", "color": "#c8a060" },
+      "live": "breathe"
+    },
+    {
+      "id": "element-air",
+      "name": "Air",
+      "description": "Pale sky white thinning into high, clear cerulean blue",
+      "tags": ["element", "air", "classical", "white", "blue"],
+      "stops": ["#ffffff", "#c0e0ff", "#5898e0"],
+      "base": "#081422",
+      "accent": "#ffffff",
+      "animation": { "mode": "sine-wave", "color": "#a0d0f8" },
+      "live": "flow"
+    },
+    {
+      "id": "element-lightning",
+      "name": "Lightning",
+      "description": "Electric white-violet forking through a charged storm-dark sky",
+      "tags": ["element", "lightning", "classical", "violet", "white"],
+      "stops": ["#ffffff", "#d0d0ff", "#8080ff", "#3020c0"],
+      "base": "#06061c",
+      "accent": "#ffffff",
+      "animation": { "mode": "laser", "color": "#8080ff" },
+      "live": "flow"
+    },
+    {
+      "id": "element-ice",
+      "name": "Ice",
+      "description": "Glassy white-blue crystal fading into a deep frozen core",
+      "tags": ["element", "ice", "classical", "white", "blue"],
+      "stops": ["#f8feff", "#c0eeff", "#70c8f0", "#3878b0"],
+      "base": "#04121c",
+      "accent": "#ffffff",
+      "animation": { "mode": "breathing", "color": "#70c8f0" },
+      "live": "breathe"
+    },
+    {
+      "id": "element-metal",
+      "name": "Metal",
+      "description": "Polished silver sliding into cool steel and gunmetal shadow",
+      "tags": ["element", "metal", "classical", "silver", "grey"],
+      "stops": ["#f4f8ff", "#d8e0ec", "#a8b0c0", "#787e8c", "#484e5c"],
+      "base": "#0a0c10",
+      "accent": "#ffffff",
+      "animation": { "mode": "line-wave", "color": "#a8b0c0" },
+      "live": "flow"
+    },
+    {
+      "id": "element-wood",
+      "name": "Wood",
+      "description": "Warm honeyed grain darkening into rich forest-floor brown",
+      "tags": ["element", "wood", "classical", "brown", "green"],
+      "stops": ["#f0d8a0", "#a08850", "#4c5828"],
+      "base": "#0a0c04",
+      "accent": "#ffffff",
+      "animation": { "mode": "breathing", "color": "#a08850" },
+      "live": "breathe"
+    },
+    {
+      "id": "element-plasma-arc",
+      "name": "Plasma Arc",
+      "description": "Hot magenta arcing through electric violet and searing white",
+      "tags": ["element", "plasma", "classical", "magenta", "violet"],
+      "stops": ["#fff0ff", "#ff60ff", "#c020ff", "#6a00a0"],
+      "base": "#100020",
+      "accent": "#ffffff",
+      "animation": { "mode": "dazzle", "color": "#ff60ff" },
+      "live": "trip"
+    },
+    {
+      "id": "element-magma",
+      "name": "Magma",
+      "description": "Molten orange cracking through a heavy black-red crust",
+      "tags": ["element", "magma", "classical", "orange", "red"],
+      "stops": ["#ffd070", "#ff8020", "#d02810", "#5c0e08"],
+      "base": "#140402",
+      "accent": "#ffffff",
+      "animation": { "mode": "reactive", "color": "#ff8020" },
+      "live": "lava"
+    },
+    {
+      "id": "element-mist",
+      "name": "Mist",
+      "description": "Soft grey-white haze thinning into a cool blue-violet dusk",
+      "tags": ["element", "mist", "classical", "grey", "violet"],
+      "stops": ["#f4f4fc", "#c8c8e0", "#9898c0", "#605c90"],
+      "base": "#0c0c14",
+      "accent": "#ffffff",
+      "animation": { "mode": "breathing", "color": "#9898c0" },
+      "live": "breathe"
+    },
+    {
+      "id": "element-sand",
+      "name": "Sand",
+      "description": "Bleached dune gold deepening into warm terracotta shadow",
+      "tags": ["element", "sand", "classical", "gold", "terracotta"],
+      "stops": ["#fff4d0", "#f0dca0", "#e8c888", "#c89858", "#a06838"],
+      "base": "#100a04",
+      "accent": "#ffffff",
+      "animation": { "mode": "wave", "color": "#e8c888" },
+      "live": "breathe"
+    },
+    {
+      "id": "element-crystal",
+      "name": "Crystal",
+      "description": "Clear prismatic white splitting into cyan, violet and rose",
+      "tags": ["element", "crystal", "classical", "white", "violet"],
+      "stops": ["#ffffff", "#a0f0ff", "#c0a0ff", "#ff90c8", "#7050d0"],
+      "base": "#0c0c1a",
+      "accent": "#ffffff",
+      "animation": { "mode": "kaleidoscope", "color": "#a0f0ff" },
+      "live": "trip"
+    },
+    {
+      "id": "element-void-light",
+      "name": "Void Light",
+      "description": "Green-violet curtains of light rippling across an empty dark",
+      "tags": ["element", "void", "classical", "green", "violet"],
+      "stops": ["#c8ffe0", "#70ffa8", "#40ff90", "#3080ff", "#7020ff"],
+      "base": "#04081c",
+      "accent": "#ffffff",
+      "animation": { "mode": "circle-wave", "color": "#40ff90" },
+      "live": "trip"
+    },
+    {
+      "id": "element-vapour",
+      "name": "Vapour",
+      "description": "Warm white vapour curling into a soft rose-tinted haze",
+      "tags": ["element", "vapour", "state", "white", "pink"],
+      "stops": ["#ffffff", "#ffd8e8", "#c888a8"],
+      "base": "#140c10",
+      "accent": "#ffffff",
+      "animation": { "mode": "breathing", "color": "#ffd8e8" },
+      "live": "breathe"
+    },
+    {
+      "id": "element-smoke",
+      "name": "Smoke",
+      "description": "Pale ash grey thickening into a deep violet-black curl",
+      "tags": ["element", "smoke", "state", "grey", "violet"],
+      "stops": ["#e8e8f0", "#c0c0d0", "#a8a8b8", "#68607c", "#302840"],
+      "base": "#0a0810",
+      "accent": "#ffffff",
+      "animation": { "mode": "wave", "color": "#a8a8b8" },
+      "live": "breathe"
+    },
+    {
+      "id": "element-frost",
+      "name": "Frost",
+      "description": "Crisp white rime spreading over a pale, glassy blue",
+      "tags": ["element", "frost", "state", "white", "blue"],
+      "stops": ["#ffffff", "#e0f8ff", "#a8d8f0", "#6098c0"],
+      "base": "#04101c",
+      "accent": "#ffffff",
+      "animation": { "mode": "breathing", "color": "#a8d8f0" },
+      "live": "breathe"
+    },
+    {
+      "id": "element-storm",
+      "name": "Storm",
+      "description": "Charged slate grey split by a flash of electric cyan",
+      "tags": ["element", "storm", "weather", "grey", "cyan"],
+      "stops": ["#e0f8ff", "#80d8f0", "#4868a0", "#202848"],
+      "base": "#060810",
+      "accent": "#80d8f0",
+      "animation": { "mode": "line-wave", "color": "#80d8f0" },
+      "live": "flow"
+    },
+    {
+      "id": "element-glass",
+      "name": "Glass",
+      "description": "Transparent pale cyan catching light through cool violet edges",
+      "tags": ["element", "glass", "material", "cyan", "violet"],
+      "stops": ["#f0ffff", "#a8d0f0", "#8090e0"],
+      "base": "#0a0c18",
+      "accent": "#ffffff",
+      "animation": { "mode": "sine-wave", "color": "#a8d0f0" },
+      "live": "flow"
+    },
+    {
+      "id": "element-obsidian",
+      "name": "Obsidian",
+      "description": "Glassy black-violet shot through with a vein of hot orange",
+      "tags": ["element", "obsidian", "material", "violet", "orange"],
+      "stops": ["#ff9040", "#c04010", "#7c2840", "#3c1858", "#180830"],
+      "base": "#08040c",
+      "accent": "#ff9040",
+      "animation": { "mode": "reactive", "color": "#ff9040" },
+      "live": "lava"
+    },
+    {
+      "id": "element-copper-flame",
+      "name": "Copper Flame",
+      "description": "The blue-green flare of burning copper, cool and electric",
+      "tags": ["element", "chemistry", "flame-test", "copper", "teal"],
+      "stops": ["#c0fff0", "#40f0c0", "#106848"],
+      "base": "#041410",
+      "accent": "#ffb060",
+      "animation": { "mode": "breathing", "color": "#ffb060" },
+      "live": "breathe"
+    },
+    {
+      "id": "element-sodium-flame",
+      "name": "Sodium Flame",
+      "description": "The unmistakable pure gold-orange of a sodium flame test",
+      "tags": ["element", "chemistry", "flame-test", "sodium", "orange"],
+      "stops": ["#fff8d0", "#ffc040", "#d87810"],
+      "base": "#160e02",
+      "accent": "#ffffff",
+      "animation": { "mode": "wave", "color": "#ffc040" },
+      "live": "flow"
+    },
+    {
+      "id": "element-strontium-flame",
+      "name": "Strontium Flame",
+      "description": "Deep scarlet burn, the crimson signature of strontium salts",
+      "tags": ["element", "chemistry", "flame-test", "strontium", "red"],
+      "stops": ["#ff8090", "#ff2040", "#c80828", "#680414"],
+      "base": "#140206",
+      "accent": "#ff2040",
+      "animation": { "mode": "meteor", "color": "#ff2040" },
+      "live": "lava"
+    },
+    {
+      "id": "element-potassium-flame",
+      "name": "Potassium Flame",
+      "description": "A faint lilac flame, pale violet held against the dark",
+      "tags": ["element", "chemistry", "flame-test", "potassium", "violet"],
+      "stops": ["#f4e0ff", "#d0a0ff", "#9860e0", "#5828a0"],
+      "base": "#0c0618",
+      "accent": "#ffffff",
+      "animation": { "mode": "breathing", "color": "#d0a0ff" },
+      "live": "breathe"
+    },
+    {
+      "id": "element-barium-flame",
+      "name": "Barium Flame",
+      "description": "A fresh apple-green flame, bright against the soot-dark",
+      "tags": ["element", "chemistry", "flame-test", "barium", "green"],
+      "stops": ["#e8ffb0", "#c0ff80", "#a8ff50", "#68c020", "#387010"],
+      "base": "#0a0e04",
+      "accent": "#a8ff50",
+      "animation": { "mode": "dazzle", "color": "#a8ff50" },
+      "live": "trip"
+    }
+  ]
+}

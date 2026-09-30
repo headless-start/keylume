@@ -1,0 +1,213 @@
+{
+  "collection": "Fortnite",
+  "prefix": "fn",
+  "section": "Games",
+  "keys": [
+    { "role": "movement", "keys": ["w", "a", "s", "d", "space", "lshift"] },
+    { "role": "crouch", "keys": ["lctrl"] },
+    { "role": "weapons", "keys": ["1", "2", "3", "4", "5"] },
+    { "role": "combat", "keys": ["e", "r"] },
+    { "role": "edit", "keys": ["g"] },
+    { "role": "interface", "keys": ["tab", "m"] }
+  ],
+  "themes": [
+    {
+      "id": "fn-violet-tempest",
+      "name": "Violet Tempest",
+      "description": "Electric violet storm wall crackling with white lightning",
+      "tags": ["purple", "white", "storm", "electric"],
+      "stops": ["#f3e8ff", "#c9a6ff", "#8a3ffb", "#4a12b0"],
+      "base": "#140430",
+      "accent": "#ffffff",
+      "animation": { "mode": "dazzle", "color": "#8a3ffb" },
+      "live": "trip"
+    },
+    {
+      "id": "fn-sky-drop",
+      "name": "Sky Drop",
+      "description": "Bright morning sky and sunrise orange on the way down",
+      "tags": ["blue", "white", "orange", "sky"],
+      "stops": ["#ffffff", "#bfe6ff", "#4fb0ff", "#ff9a3c"],
+      "base": "#062038",
+      "accent": "#ffffff",
+      "animation": { "mode": "line-wave", "color": "#4fb0ff" },
+      "live": "flow"
+    },
+    {
+      "id": "fn-neon-dance-floor",
+      "name": "Neon Dance Floor",
+      "description": "Hot pink and electric cyan lighting a bright dance floor",
+      "tags": ["pink", "cyan", "neon", "bright"],
+      "stops": ["#ffffff", "#ff8ae2", "#ff2fb0", "#00c2ff"],
+      "base": "#1a0630",
+      "accent": "#ffffff",
+      "animation": { "mode": "dazzle", "color": "#ff2fb0" },
+      "live": "trip"
+    },
+    {
+      "id": "fn-golden-chest",
+      "name": "Golden Chest",
+      "description": "Polished gold and bronze spilling from a treasure chest",
+      "tags": ["gold", "bronze", "shine", "loot"],
+      "stops": ["#fff6cc", "#ffd54a", "#e0952c", "#7a4a10"],
+      "base": "#1c1204",
+      "accent": "#fff6cc",
+      "animation": { "mode": "converge", "color": "#ffd54a" },
+      "live": "flow"
+    },
+    {
+      "id": "fn-frost-peak",
+      "name": "Frost Peak",
+      "description": "Glacier blue and snow white capping a frozen summit",
+      "tags": ["blue", "white", "ice", "snow"],
+      "stops": ["#ffffff", "#d6f3ff", "#7fd3ff", "#2f7fc2"],
+      "base": "#071726",
+      "accent": "#ffffff",
+      "animation": { "mode": "raindrop", "color": "#7fd3ff" },
+      "live": "breathe"
+    },
+    {
+      "id": "fn-magma-vent",
+      "name": "Magma Vent",
+      "description": "Molten orange glow venting through blackened volcanic rock",
+      "tags": ["orange", "red", "black", "volcanic"],
+      "stops": ["#ffdd88", "#ff9a2e", "#ff3300", "#4a0e00"],
+      "base": "#180500",
+      "accent": "#ffcf6b",
+      "animation": { "mode": "meteor", "color": "#ff3300" },
+      "live": "lava"
+    },
+    {
+      "id": "fn-jungle-canopy",
+      "name": "Jungle Canopy",
+      "description": "Sunlight filtering green through a dense tropical canopy",
+      "tags": ["green", "yellow", "tropical", "canopy"],
+      "stops": ["#f2ffb0", "#b9e23a", "#4f9a1e", "#1a4a10"],
+      "base": "#0a1806",
+      "accent": "#f2ffb0",
+      "animation": { "mode": "wave", "color": "#b9e23a" },
+      "live": "flow"
+    },
+    {
+      "id": "fn-prism-portal",
+      "name": "Prism Portal",
+      "description": "Pink, violet and cyan light spilling from a bright portal",
+      "tags": ["pink", "purple", "cyan", "portal"],
+      "stops": ["#f5e6ff", "#ff9ee8", "#5fd4ff", "#5a1ad0"],
+      "base": "#120830",
+      "accent": "#ffffff",
+      "animation": { "mode": "kaleidoscope", "color": "#5fd4ff" },
+      "live": "trip"
+    },
+    {
+      "id": "fn-arctic-shoreline",
+      "name": "Arctic Shoreline",
+      "description": "Turquoise shallows and glacier white on an icy shoreline",
+      "tags": ["teal", "blue", "ice", "coast"],
+      "stops": ["#eafffa", "#9ff0e0", "#3fc9c0", "#1a6d8a"],
+      "base": "#04222c",
+      "accent": "#ffffff",
+      "animation": { "mode": "wave", "color": "#3fc9c0" },
+      "live": "flow"
+    },
+    {
+      "id": "fn-dune-outpost",
+      "name": "Dune Outpost",
+      "description": "Pale desert sky over sun-baked dunes and a hidden oasis",
+      "tags": ["orange", "tan", "desert", "sand"],
+      "stops": ["#eaf6ff", "#ffcf8a", "#d67a3c", "#5c2a10"],
+      "base": "#1f0f04",
+      "accent": "#4fe0c0",
+      "animation": { "mode": "sine-wave", "color": "#ffcf8a" },
+      "live": "lava"
+    },
+    {
+      "id": "fn-skyline-circuit",
+      "name": "Skyline Circuit",
+      "description": "Cyan and magenta neon tracing a night city skyline",
+      "tags": ["cyan", "magenta", "neon", "city"],
+      "stops": ["#eafcff", "#5fe8ff", "#ff4fd8", "#2a0a5c"],
+      "base": "#0a0620",
+      "accent": "#ffffff",
+      "animation": { "mode": "laser", "color": "#5fe8ff" },
+      "live": "flow"
+    },
+    {
+      "id": "fn-verdant-cache",
+      "name": "Verdant Cache",
+      "description": "Bright mint green glowing like a hidden cache in the grass",
+      "tags": ["green", "mint", "glow", "cache"],
+      "stops": ["#e0fff0", "#5aff9e", "#12c25a", "#064a24"],
+      "base": "#04140a",
+      "accent": "#a0ffcf",
+      "animation": { "mode": "converge", "color": "#5aff9e" },
+      "live": "breathe"
+    },
+    {
+      "id": "fn-amethyst-cache",
+      "name": "Amethyst Cache",
+      "description": "Fuchsia and deep purple glowing like a rare hidden cache",
+      "tags": ["purple", "magenta", "glow", "cache"],
+      "stops": ["#ffccff", "#e060ff", "#a010d0", "#3a0864"],
+      "base": "#1c0430",
+      "accent": "#ffe6ff",
+      "animation": { "mode": "circle-wave", "color": "#e060ff" },
+      "live": "trip"
+    },
+    {
+      "id": "fn-beacon-drop",
+      "name": "Beacon Drop",
+      "description": "Sky blue beacon light with a flare of orange marking a drop",
+      "tags": ["blue", "orange", "beacon", "signal"],
+      "stops": ["#eaf6ff", "#9fd4ff", "#3f8fe0", "#123a80"],
+      "base": "#04102a",
+      "accent": "#ff8a2a",
+      "animation": { "mode": "rain-down", "color": "#3f8fe0" },
+      "live": "flow"
+    },
+    {
+      "id": "fn-dawn-departure",
+      "name": "Dawn Departure",
+      "description": "Peach and lavender clouds lit by an early morning departure",
+      "tags": ["peach", "lavender", "dawn", "sky"],
+      "stops": ["#fff2e0", "#ffb98a", "#c98aff", "#4a2a9e"],
+      "base": "#1a0a30",
+      "accent": "#fff2e0",
+      "animation": { "mode": "line-wave", "color": "#c98aff" },
+      "live": "flow"
+    },
+    {
+      "id": "fn-meteor-night",
+      "name": "Meteor Night",
+      "description": "A bright meteor streak cutting through deep indigo night",
+      "tags": ["blue", "indigo", "night", "meteor"],
+      "stops": ["#eaf4ff", "#8fd0ff", "#3f5fd0", "#120a40"],
+      "base": "#050318",
+      "accent": "#eaf4ff",
+      "animation": { "mode": "meteor", "color": "#8fd0ff" },
+      "live": "trip"
+    },
+    {
+      "id": "fn-featherfall",
+      "name": "Featherfall",
+      "description": "Teal and pink pastels drifting like a slow weightless fall",
+      "tags": ["teal", "pink", "pastel", "float"],
+      "stops": ["#f0fffa", "#8ff5e0", "#ff9ad6", "#c26aa0"],
+      "base": "#160a30",
+      "accent": "#f0fffa",
+      "animation": { "mode": "snake", "color": "#ff9ad6" },
+      "live": "breathe"
+    },
+    {
+      "id": "fn-blank-canvas",
+      "name": "Blank Canvas",
+      "description": "Soft white and pastel rainbow waiting on an empty canvas",
+      "tags": ["white", "pastel", "rainbow", "canvas"],
+      "stops": ["#ffffff", "#ffd0ea", "#c9e8ff", "#b0f0c9"],
+      "base": "#141418",
+      "accent": "#ffffff",
+      "animation": { "mode": "breathing", "color": "#ffffff" },
+      "live": "flow"
+    }
+  ]
+}

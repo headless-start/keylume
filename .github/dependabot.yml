@@ -1,0 +1,33 @@
+# One weekly pull request per ecosystem, with patch updates only: minor and major upgrades
+# (which often need code changes) are done by hand, in a round of their own. Advisories are
+# caught anyway by CI's weekly `npm audit` and `cargo audit`, and by Dependabot security updates
+# when they're turned on in the repository's settings.
+version: 2
+updates:
+  - package-ecosystem: cargo
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      cargo:
+        patterns: ["*"]
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      npm:
+        patterns: ["*"]
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]

@@ -1,0 +1,11 @@
+[package]
+name = "keylume-proto"
+description = "Wire protocol for Rongyuan-based keyboards (Epomaker TK68 and friends). No I/O."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true

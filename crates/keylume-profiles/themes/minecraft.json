@@ -1,0 +1,102 @@
+{
+  "collection": "Minecraft",
+  "prefix": "mc",
+  "section": "Games",
+  "keys": [
+    { "role": "movement", "keys": ["w", "a", "s", "d"] },
+    { "role": "jump-sneak-sprint", "keys": ["space", "lshift", "lctrl"] },
+    { "role": "hotbar", "keys": ["1", "2", "3", "4", "5", "6", "7", "8", "9"] },
+    { "role": "inventory", "keys": ["e", "q", "f"] },
+    { "role": "chat-commands", "keys": ["t", "slash"] }
+  ],
+  "themes": [
+    {
+      "id": "mc-meadow-grid",
+      "name": "Meadow Grid",
+      "description": "Bright grass green over rich earth brown in a sunny meadow of squares",
+      "tags": ["green", "brown", "nature", "blocky"],
+      "stops": ["#eaffb0", "#8fe83a", "#3a9a1e", "#5a3a18"],
+      "base": "#0a1808",
+      "accent": "#ffffff",
+      "animation": { "mode": "wave", "color": "#8fe83a" },
+      "live": "flow"
+    },
+    {
+      "id": "mc-cave-glow",
+      "name": "Cave Glow",
+      "description": "Glowing cyan and amber ore lights deep in dark stone tunnels",
+      "tags": ["cyan", "orange", "cave", "stone"],
+      "stops": ["#bff8ff", "#4adfe8", "#ff9a30", "#2a2a34"],
+      "base": "#0a0a10",
+      "accent": "#ffffff",
+      "animation": { "mode": "raindrop", "color": "#4adfe8" },
+      "live": "trip"
+    },
+    {
+      "id": "mc-magma-chunk",
+      "name": "Magma Chunk",
+      "description": "Molten orange and red cracking through blackened rock chunks",
+      "tags": ["orange", "red", "lava", "fire"],
+      "stops": ["#ffe08a", "#ff8a1a", "#ff3300", "#5a0a00"],
+      "base": "#1a0400",
+      "accent": "#fff066",
+      "animation": { "mode": "meteor", "color": "#ff3300" },
+      "live": "lava"
+    },
+    {
+      "id": "mc-frost-peaks",
+      "name": "Frost Peaks",
+      "description": "Ice-white and glacier blue capping snowy square peaks",
+      "tags": ["white", "blue", "snow", "ice"],
+      "stops": ["#eafffa", "#9ff0e6", "#3fb8c8", "#1a4a68"],
+      "base": "#04141a",
+      "accent": "#eafffa",
+      "animation": { "mode": "breathing", "color": "#6fc8ff" },
+      "live": "breathe"
+    },
+    {
+      "id": "mc-dune-pixels",
+      "name": "Dune Pixels",
+      "description": "Sun-baked sand yellow drifting into deep desert orange",
+      "tags": ["yellow", "orange", "desert", "sand"],
+      "stops": ["#fff0b0", "#ffcf60", "#e8952a", "#8a4a10"],
+      "base": "#241205",
+      "accent": "#fff6d0",
+      "animation": { "mode": "sine-wave", "color": "#ffcf60" },
+      "live": "flow"
+    },
+    {
+      "id": "mc-coral-block-reef",
+      "name": "Coral Block Reef",
+      "description": "Teal shallows breaking into coral orange near a square reef",
+      "tags": ["teal", "orange", "ocean", "reef"],
+      "stops": ["#bdfff2", "#3adfc0", "#0f8a90", "#ff8a4a"],
+      "base": "#02181c",
+      "accent": "#ffe0c8",
+      "animation": { "mode": "ripple", "color": "#3adfc0" },
+      "live": "flow"
+    },
+    {
+      "id": "mc-cyan-ore-vein",
+      "name": "Cyan Ore Vein",
+      "description": "Sparkling cyan ore glinting through a seam of grey stone",
+      "tags": ["cyan", "blue", "ore", "mining"],
+      "stops": ["#d8ffff", "#5ef0ff", "#0fb8e0", "#274a56"],
+      "base": "#081418",
+      "accent": "#ffffff",
+      "animation": { "mode": "dazzle", "color": "#5ef0ff" },
+      "live": "trip"
+    },
+    {
+      "id": "mc-void-starlight",
+      "name": "Void Starlight",
+      "description": "Deep violet void scattered with distant pinpoint starlight",
+      "tags": ["purple", "black", "void", "stars"],
+      "stops": ["#f0e0ff", "#c090ff", "#7a2ad0", "#2a0a5a"],
+      "base": "#0a0418",
+      "accent": "#ffffff",
+      "animation": { "mode": "kaleidoscope", "color": "#c090ff" },
+      "live": "trip"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+name: An idea
+description: A feature, a design, an effect, or a way to make Keylume simpler.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What you'd like, and what it would let you do.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What you do today instead, if anything.

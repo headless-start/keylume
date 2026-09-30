@@ -1,0 +1,212 @@
+{
+  "collection": "Dota 2",
+  "prefix": "dota",
+  "section": "Games",
+  "keys": [
+    { "role": "abilities", "keys": ["q", "w", "e", "d", "f", "r"] },
+    { "role": "items", "keys": ["z", "x", "c", "v", "b", "n"] },
+    { "role": "team", "keys": ["j", "p"] },
+    { "role": "camera", "keys": ["space"] },
+    { "role": "chat", "keys": ["enter"] }
+  ],
+  "themes": [
+    {
+      "id": "dota-jungle-dawn",
+      "name": "Jungle Dawn",
+      "description": "Emerald jungle lit gold at first light",
+      "tags": ["green", "gold", "jungle", "dawn"],
+      "stops": ["#eaffb0", "#8cff3d", "#2f9e2a", "#0c4a12"],
+      "base": "#031c08",
+      "accent": "#ffd24a",
+      "animation": { "mode": "wave", "color": "#8cff3d" },
+      "live": "flow"
+    },
+    {
+      "id": "dota-ember-siege",
+      "name": "Ember Siege",
+      "description": "Orange ember light closing in like a siege at dusk",
+      "tags": ["orange", "red", "fire", "siege"],
+      "stops": ["#ffdca0", "#ff9a30", "#e0400a", "#5a1200"],
+      "base": "#200600",
+      "accent": "#ffb84a",
+      "animation": { "mode": "converge", "color": "#e0400a" },
+      "live": "lava"
+    },
+    {
+      "id": "dota-rune-well",
+      "name": "Rune Well",
+      "description": "Cyan runes glowing deep inside a magic well",
+      "tags": ["teal", "cyan", "glow", "arcane"],
+      "stops": ["#dafcff", "#5cf0ff", "#12b8d8", "#0a3a52"],
+      "base": "#031824",
+      "accent": "#7dfaff",
+      "animation": { "mode": "circle-wave", "color": "#5cf0ff" },
+      "live": "trip"
+    },
+    {
+      "id": "dota-blood-eclipse",
+      "name": "Blood Eclipse",
+      "description": "Crimson light swallowed by a creeping black eclipse",
+      "tags": ["red", "black", "eclipse", "moody"],
+      "stops": ["#ff8080", "#ff2a2a", "#8a0018", "#3a0010"],
+      "base": "#180004",
+      "accent": "#ffb0b0",
+      "animation": { "mode": "reactive", "color": "#ff2a2a" },
+      "live": "breathe"
+    },
+    {
+      "id": "dota-frost-keep",
+      "name": "Frost Keep",
+      "description": "Pale ice blue banked in steel around a frozen keep",
+      "tags": ["blue", "ice", "steel", "cold"],
+      "stops": ["#eaffff", "#a8e8ff", "#4aa8e0", "#123a70"],
+      "base": "#051020",
+      "accent": "#d8f4ff",
+      "animation": { "mode": "snake", "color": "#4aa8e0" },
+      "live": "breathe"
+    },
+    {
+      "id": "dota-golden-push",
+      "name": "Golden Push",
+      "description": "Warm gold light surging forward in a late push",
+      "tags": ["gold", "amber", "warm", "push"],
+      "stops": ["#fff6c8", "#ffcc33", "#ff8a1a", "#a05a00"],
+      "base": "#1c0e00",
+      "accent": "#ffe9a0",
+      "animation": { "mode": "sine-wave", "color": "#ffcc33" },
+      "live": "lava"
+    },
+    {
+      "id": "dota-arcane-river",
+      "name": "Arcane River",
+      "description": "Teal current spilling violet through a magic river",
+      "tags": ["teal", "violet", "river", "magic"],
+      "stops": ["#c8fff0", "#3af0d0", "#4a6aff", "#2a0a8a"],
+      "base": "#050a24",
+      "accent": "#7dfaff",
+      "animation": { "mode": "line-wave", "color": "#4a6aff" },
+      "live": "trip"
+    },
+    {
+      "id": "dota-night-march",
+      "name": "Night March",
+      "description": "Violet ranks advancing under a deep night sky",
+      "tags": ["purple", "violet", "night", "march"],
+      "stops": ["#f0e0ff", "#b088ff", "#6a2ae0", "#2a0870"],
+      "base": "#0e0430",
+      "accent": "#d8c0ff",
+      "animation": { "mode": "kaleidoscope", "color": "#6a2ae0" },
+      "live": "breathe"
+    },
+    {
+      "id": "dota-sunlit-vanguard",
+      "name": "Sunlit Vanguard",
+      "description": "Bright gold-green light like dawn breaking over the front line",
+      "tags": ["green", "gold", "dawn", "light"],
+      "stops": ["#ffffff", "#fff2b0", "#c8e86a", "#4a8a1e"],
+      "base": "#0a1404",
+      "accent": "#ffe08a",
+      "animation": { "mode": "sine-wave", "color": "#fff2b0" },
+      "live": "flow"
+    },
+    {
+      "id": "dota-umbral-vanguard",
+      "name": "Umbral Vanguard",
+      "description": "Crimson and deep plum shadow massing for a dark push",
+      "tags": ["purple", "crimson", "dark", "shadow"],
+      "stops": ["#ffb0b0", "#a03050", "#5a1050", "#1c0824"],
+      "base": "#1c0824",
+      "accent": "#ffe0e0",
+      "animation": { "mode": "snake", "color": "#a03050" },
+      "live": "trip"
+    },
+    {
+      "id": "dota-night-ambush",
+      "name": "Night Ambush",
+      "description": "A sudden pale flash cutting through olive-grey darkness",
+      "tags": ["grey", "yellow", "ambush", "night"],
+      "stops": ["#ffffff", "#fff066", "#6a6a3a", "#1a1a10"],
+      "base": "#0a0a06",
+      "accent": "#ffffff",
+      "animation": { "mode": "reactive", "color": "#fff066" },
+      "live": "trip"
+    },
+    {
+      "id": "dota-stone-pit",
+      "name": "Stone Pit",
+      "description": "Fiery red eyes glowing in a weathered stone pit",
+      "tags": ["red", "stone", "pit", "fire"],
+      "stops": ["#d8d0c0", "#b06848", "#7a2818", "#2a0e08"],
+      "base": "#180a04",
+      "accent": "#ff5a2a",
+      "animation": { "mode": "meteor", "color": "#ff5a2a" },
+      "live": "lava"
+    },
+    {
+      "id": "dota-mega-gold-rush",
+      "name": "Mega Gold Rush",
+      "description": "Bright lime and gold surging like a rush of stolen treasure",
+      "tags": ["gold", "green", "rush", "treasure"],
+      "stops": ["#f0fff0", "#c8ff5a", "#ffcc33", "#7a4a00"],
+      "base": "#140c00",
+      "accent": "#ffffff",
+      "animation": { "mode": "converge", "color": "#ffcc33" },
+      "live": "flow"
+    },
+    {
+      "id": "dota-relic-shimmer",
+      "name": "Relic Shimmer",
+      "description": "Teal glow ringing a golden relic that shimmers with revival",
+      "tags": ["teal", "gold", "relic", "glow"],
+      "stops": ["#eafffe", "#8ff5e8", "#3fd0c0", "#c89a1a"],
+      "base": "#04201c",
+      "accent": "#ffe08a",
+      "animation": { "mode": "circle-wave", "color": "#3fd0c0" },
+      "live": "breathe"
+    },
+    {
+      "id": "dota-prestige-bloom",
+      "name": "Prestige Bloom",
+      "description": "Opulent magenta bloom trimmed with a shimmer of teal",
+      "tags": ["purple", "magenta", "teal", "opulent"],
+      "stops": ["#ffe0f5", "#ff70e0", "#a020a0", "#4a0a4a"],
+      "base": "#1c041c",
+      "accent": "#4af0d0",
+      "animation": { "mode": "kaleidoscope", "color": "#ff70e0" },
+      "live": "trip"
+    },
+    {
+      "id": "dota-midnight-watcher",
+      "name": "Midnight Watcher",
+      "description": "A golden eye glowing steady in deep midnight blue",
+      "tags": ["blue", "gold", "night", "watcher"],
+      "stops": ["#dfe8ff", "#7a9aff", "#2a4ad0", "#0a1240"],
+      "base": "#040a20",
+      "accent": "#ffd24a",
+      "animation": { "mode": "laser", "color": "#7a9aff" },
+      "live": "breathe"
+    },
+    {
+      "id": "dota-skybound-relay",
+      "name": "Skybound Relay",
+      "description": "A bright cyan streak relaying fast under a trail of gold",
+      "tags": ["cyan", "blue", "gold", "fast"],
+      "stops": ["#ffffff", "#9af0ff", "#4a7aff", "#ffd24a"],
+      "base": "#04142a",
+      "accent": "#ffffff",
+      "animation": { "mode": "line-wave", "color": "#4a7aff" },
+      "live": "flow"
+    },
+    {
+      "id": "dota-sacred-spring",
+      "name": "Sacred Spring",
+      "description": "Mint and emerald light welling up from a healing spring",
+      "tags": ["green", "mint", "healing", "spring"],
+      "stops": ["#f0fff5", "#a0ffce", "#3fe08a", "#0a7a44"],
+      "base": "#02180c",
+      "accent": "#ffffff",
+      "animation": { "mode": "breathing", "color": "#3fe08a" },
+      "live": "flow"
+    }
+  ]
+}

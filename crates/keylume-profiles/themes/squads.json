@@ -1,0 +1,293 @@
+{
+  "collection": "Squads",
+  "prefix": "squad",
+  "section": "Comics",
+  "themes": [
+    {
+      "id": "squad-union-vanguard",
+      "name": "Union Vanguard",
+      "description": "A founding alliance in royal blue and gold standing watch",
+      "tags": ["squad", "blue", "gold", "alliance"],
+      "stops": ["#ffe9a0", "#ffd24a", "#d9a83a", "#3a5aff", "#0a1a80"],
+      "base": "#060a30",
+      "accent": "#ffd24a",
+      "animation": { "mode": "converge", "color": "#3a5aff" },
+      "live": "flow"
+    },
+    {
+      "id": "squad-scholar-squadron",
+      "name": "Scholar Squadron",
+      "description": "A gifted academy's crisp yellow-and-blue training uniforms",
+      "tags": ["squad", "yellow", "blue", "academy"],
+      "stops": ["#fff6b0", "#ffe030", "#3a6bff", "#0a1a6a"],
+      "base": "#060a2a",
+      "accent": "#fff066",
+      "animation": { "mode": "sine-wave", "color": "#ffe030" },
+      "live": "breathe"
+    },
+    {
+      "id": "squad-crimson-concord",
+      "name": "Crimson Concord",
+      "description": "A strike team's crimson-and-gold banners raised together",
+      "tags": ["squad", "red", "gold", "strike"],
+      "stops": ["#ffe9a0", "#d9a83a", "#ff2a3a", "#7a0010"],
+      "base": "#1a0006",
+      "accent": "#ffd24a",
+      "animation": { "mode": "circle-wave", "color": "#ff2a3a" },
+      "live": "flow"
+    },
+    {
+      "id": "squad-emerald-sentry",
+      "name": "Emerald Sentry",
+      "description": "An interstellar corps sworn to an emerald oath of light",
+      "tags": ["squad", "green", "black", "cosmic"],
+      "stops": ["#c8ffb0", "#3adf6a", "#0a8a3a", "#0a3010"],
+      "base": "#02180a",
+      "accent": "#c8ffd8",
+      "animation": { "mode": "circle-wave", "color": "#00ff60" },
+      "live": "flow"
+    },
+    {
+      "id": "squad-starlight-wardens",
+      "name": "Starlight Wardens",
+      "description": "A rag-tag crew guarding the galaxy in starlit purple and teal",
+      "tags": ["squad", "purple", "teal", "cosmic"],
+      "stops": ["#b8f8ea", "#45e0c8", "#8a3cf0", "#240a52"],
+      "base": "#0a0430",
+      "accent": "#7dfff5",
+      "animation": { "mode": "kaleidoscope", "color": "#8a3cf0" },
+      "live": "trip"
+    },
+    {
+      "id": "squad-rooftop-watch",
+      "name": "Rooftop Watch",
+      "description": "A street-level watch patrolling in muted red and charcoal",
+      "tags": ["squad", "red", "black", "street"],
+      "stops": ["#ff9a8a", "#ff3a2a", "#1a1a20"],
+      "base": "#0a0a10",
+      "accent": "#ff6a4a",
+      "animation": { "mode": "reactive", "color": "#ff3a2a" },
+      "live": "breathe"
+    },
+    {
+      "id": "squad-bright-recruits",
+      "name": "Bright Recruits",
+      "description": "A junior team's bright primary colours, eager and unpolished",
+      "tags": ["squad", "red", "blue", "youth"],
+      "stops": ["#fff6b0", "#ff3a4a", "#3a6bff", "#101e70"],
+      "base": "#0a0e30",
+      "accent": "#ffffff",
+      "animation": { "mode": "dazzle", "color": "#ff3a4a" },
+      "live": "flow"
+    },
+    {
+      "id": "squad-blackout-detail",
+      "name": "Blackout Detail",
+      "description": "A black-ops detail moving unseen in gunmetal and warning red",
+      "tags": ["squad", "black", "red", "ops"],
+      "stops": ["#ff9a8a", "#ff2020", "#7a0a0a", "#2a2a30"],
+      "base": "#0a0a10",
+      "accent": "#ff4a4a",
+      "animation": { "mode": "reactive-off", "color": "#ff2020" },
+      "live": "breathe"
+    },
+    {
+      "id": "squad-cosmic-quartet",
+      "name": "Cosmic Quartet",
+      "description": "A quartet of explorers in crisp cosmic blue and white",
+      "tags": ["squad", "blue", "white", "explorers"],
+      "stops": ["#ffffff", "#cfe0ff", "#3a6bff", "#0a1a6a"],
+      "base": "#060a2a",
+      "accent": "#ffffff",
+      "animation": { "mode": "sine-wave", "color": "#3a6bff" },
+      "live": "flow"
+    },
+    {
+      "id": "squad-veiled-dynasty",
+      "name": "Veiled Dynasty",
+      "description": "A hidden royal line in regal teal and moon-silver",
+      "tags": ["squad", "teal", "silver", "royal"],
+      "stops": ["#e8fffa", "#7dfff0", "#1fae9a", "#0a3a3a"],
+      "base": "#02181a",
+      "accent": "#c8fff8",
+      "animation": { "mode": "circle-wave", "color": "#7dfff0" },
+      "live": "breathe"
+    },
+    {
+      "id": "squad-arcane-circle",
+      "name": "Arcane Circle",
+      "description": "A mystic order's arcane gold sparking through sorcerer's violet",
+      "tags": ["squad", "gold", "purple", "mystic"],
+      "stops": ["#ffd98a", "#ffb84a", "#8a3cf0", "#32104a"],
+      "base": "#0c0630",
+      "accent": "#ffc86a",
+      "animation": { "mode": "kaleidoscope", "color": "#8a3cf0" },
+      "live": "trip"
+    },
+    {
+      "id": "squad-orbit-rangers",
+      "name": "Orbit Rangers",
+      "description": "A space corps patrolling the void in reactor orange and steel",
+      "tags": ["squad", "orange", "steel", "space"],
+      "stops": ["#ffe0a0", "#ff9a2e", "#ff5a00", "#4a5a62"],
+      "base": "#140a04",
+      "accent": "#ffb020",
+      "animation": { "mode": "laser", "color": "#ff9a2e" },
+      "live": "flow"
+    },
+    {
+      "id": "squad-iron-armada",
+      "name": "Iron Armada",
+      "description": "A galactic fleet's black hulls lit by imperial crimson running lights",
+      "tags": ["squad", "blue", "black", "fleet"],
+      "stops": ["#c8d0ff", "#5a6ad0", "#1a2060", "#3a0a10"],
+      "base": "#06081a",
+      "accent": "#ff4a4a",
+      "animation": { "mode": "reactive", "color": "#ff4a4a" },
+      "live": "flow"
+    },
+    {
+      "id": "squad-frost-battalion",
+      "name": "Frost Battalion",
+      "description": "A polar patrol team in pale glacier blue and white armour",
+      "tags": ["squad", "blue", "white", "ice"],
+      "stops": ["#ffffff", "#dff6ff", "#7dc8ff", "#1a4a8a"],
+      "base": "#04101e",
+      "accent": "#eafbff",
+      "animation": { "mode": "raindrop", "color": "#7dc8ff" },
+      "live": "breathe"
+    },
+    {
+      "id": "squad-ember-strike",
+      "name": "Ember Strike",
+      "description": "A strike team's molten orange gear scorched against black",
+      "tags": ["squad", "orange", "black", "strike"],
+      "stops": ["#ffcf6a", "#ff7a10", "#e62a00", "#3a1004"],
+      "base": "#1a0300",
+      "accent": "#ffb866",
+      "animation": { "mode": "meteor", "color": "#e62a00" },
+      "live": "lava"
+    },
+    {
+      "id": "squad-tide-brigade",
+      "name": "Tide Brigade",
+      "description": "An underwater brigade in current teal and coral pink",
+      "tags": ["squad", "teal", "pink", "ocean"],
+      "stops": ["#b0fff0", "#ff6a9a", "#2fe6c0", "#0a4a42"],
+      "base": "#021816",
+      "accent": "#ff9ac8",
+      "animation": { "mode": "wave", "color": "#2fe6c0" },
+      "live": "flow"
+    },
+    {
+      "id": "squad-dune-squadron",
+      "name": "Dune Squadron",
+      "description": "A desert squadron in sandstone gold and sky-blue sightlines",
+      "tags": ["squad", "gold", "blue", "desert"],
+      "stops": ["#f4dca0", "#d8b070", "#3a6bff", "#0a1a6a"],
+      "base": "#140e04",
+      "accent": "#7ab0ff",
+      "animation": { "mode": "wave", "color": "#d8b070" },
+      "live": "flow"
+    },
+    {
+      "id": "squad-snowfall-wolves",
+      "name": "Snowfall Wolves",
+      "description": "A ghost squad moving through snowfall white and steel blue",
+      "tags": ["squad", "white", "blue", "stealth"],
+      "stops": ["#ffffff", "#dfe8f0", "#7a90b0", "#1a2a40"],
+      "base": "#0a1220",
+      "accent": "#eef4ff",
+      "animation": { "mode": "raindrop", "color": "#7a90b0" },
+      "live": "breathe"
+    },
+    {
+      "id": "squad-neon-circuit",
+      "name": "Neon Circuit",
+      "description": "A neon-lit vice unit weaving cyan pursuit through hot magenta",
+      "tags": ["squad", "pink", "blue", "neon"],
+      "stops": ["#b0f5ff", "#2ad0ff", "#ff2ad0", "#5a0a8a"],
+      "base": "#0a0a28",
+      "accent": "#7dfaff",
+      "animation": { "mode": "dazzle", "color": "#2ad0ff" },
+      "live": "trip"
+    },
+    {
+      "id": "squad-jungle-vanguard",
+      "name": "Jungle Vanguard",
+      "description": "A jungle vanguard in mossy green and burnt umber fatigues",
+      "tags": ["squad", "green", "brown", "jungle"],
+      "stops": ["#c8ff9a", "#6aef2a", "#2f7a1a", "#7a4a18"],
+      "base": "#0a1206",
+      "accent": "#b8ff6a",
+      "animation": { "mode": "snake", "color": "#6aef2a" },
+      "live": "flow"
+    },
+    {
+      "id": "squad-radiant-cohort",
+      "name": "Radiant Cohort",
+      "description": "A cohort of dawn knights in radiant gold and white armour",
+      "tags": ["squad", "gold", "white", "solar"],
+      "stops": ["#ffffff", "#ffe9a0", "#ffb020", "#c06a00"],
+      "base": "#241000",
+      "accent": "#ffffff",
+      "animation": { "mode": "circle-wave", "color": "#ffb020" },
+      "live": "breathe"
+    },
+    {
+      "id": "squad-silent-clan",
+      "name": "Silent Clan",
+      "description": "A silent clan cloaked in steel-blue shadow, marked by a single red slash",
+      "tags": ["squad", "blue", "red", "stealth"],
+      "stops": ["#e4eaff", "#94a4d0", "#3a4470", "#ff2a3a"],
+      "base": "#080a16",
+      "accent": "#ff3a4a",
+      "animation": { "mode": "reactive-off", "color": "#ff2a3a" },
+      "live": "breathe"
+    },
+    {
+      "id": "squad-thunder-wing",
+      "name": "Thunder Wing",
+      "description": "A storm-chasing wing in charged violet and lightning yellow",
+      "tags": ["squad", "purple", "yellow", "storm"],
+      "stops": ["#fff2c8", "#ffcf40", "#7a5ad0", "#241080"],
+      "base": "#0e0838",
+      "accent": "#ffe066",
+      "animation": { "mode": "line-wave", "color": "#ffcf40" },
+      "live": "trip"
+    },
+    {
+      "id": "squad-steel-phalanx",
+      "name": "Steel Phalanx",
+      "description": "A mecha pilot squad's polished steel plating trimmed in cobalt",
+      "tags": ["squad", "silver", "blue", "mecha"],
+      "stops": ["#dce8ff", "#8aa8e0", "#3a5a9a", "#0a1a40"],
+      "base": "#040a20",
+      "accent": "#c8d8ff",
+      "animation": { "mode": "converge", "color": "#8aa8e0" },
+      "live": "flow"
+    },
+    {
+      "id": "squad-marksman-crew",
+      "name": "Marksman Crew",
+      "description": "A bounty crew in dust-brown leather and blaster-scorch orange",
+      "tags": ["squad", "brown", "orange", "bounty"],
+      "stops": ["#ffdcae", "#d89a5a", "#ff6a1a", "#5a2a08"],
+      "base": "#140a04",
+      "accent": "#ffb060",
+      "animation": { "mode": "laser", "color": "#ff6a1a" },
+      "live": "flow"
+    },
+    {
+      "id": "squad-aurora-choir",
+      "name": "Aurora Choir",
+      "description": "A celestial choir humming aurora green through violet night",
+      "tags": ["squad", "green", "purple", "cosmic"],
+      "stops": ["#c8ffe0", "#8affc0", "#5cffa0", "#7a3ce0", "#2a0a5a"],
+      "base": "#0a0420",
+      "accent": "#c8ffea",
+      "animation": { "mode": "circle-wave", "color": "#5cffa0" },
+      "live": "trip"
+    }
+  ]
+}

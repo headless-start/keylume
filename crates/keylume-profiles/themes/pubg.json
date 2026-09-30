@@ -1,0 +1,103 @@
+{
+  "collection": "PUBG",
+  "prefix": "pubg",
+  "section": "Games",
+  "keys": [
+    { "role": "movement", "keys": ["w", "a", "s", "d", "space", "lshift", "c", "z"] },
+    { "role": "lean", "keys": ["q", "e"] },
+    { "role": "weapons", "keys": ["1", "2", "3", "4", "5"] },
+    { "role": "combat", "keys": ["r", "f"] },
+    { "role": "view", "keys": ["v"] },
+    { "role": "interface", "keys": ["i", "m"] }
+  ],
+  "themes": [
+    {
+      "id": "pubg-blue-zone",
+      "name": "Blue Zone",
+      "description": "An electric blue field closing in from every side",
+      "tags": ["blue", "electric", "danger", "field"],
+      "stops": ["#eaffff", "#7dd8ff", "#2f8cff", "#123a9e"],
+      "base": "#040c24",
+      "accent": "#eaffff",
+      "animation": { "mode": "converge", "color": "#2f8cff" },
+      "live": "flow"
+    },
+    {
+      "id": "pubg-red-zone",
+      "name": "Red Zone",
+      "description": "A bombed-out red haze marking a danger area",
+      "tags": ["red", "orange", "danger", "haze"],
+      "stops": ["#ffd9a0", "#ff8a3c", "#ff2a1a", "#7a0a00"],
+      "base": "#1c0600",
+      "accent": "#ffb066",
+      "animation": { "mode": "meteor", "color": "#ff2a1a" },
+      "live": "lava"
+    },
+    {
+      "id": "pubg-frost-field",
+      "name": "Frost Field",
+      "description": "Snow-white frost settling over a pale winter field",
+      "tags": ["white", "blue", "snow", "winter"],
+      "stops": ["#ffffff", "#e3f4ff", "#a9d3f5", "#4f80ad"],
+      "base": "#0a1826",
+      "accent": "#ffffff",
+      "animation": { "mode": "raindrop", "color": "#a9d3f5" },
+      "live": "breathe"
+    },
+    {
+      "id": "pubg-dust-flats",
+      "name": "Dust Flats",
+      "description": "Sun-bleached tan dust settling over dry flatland",
+      "tags": ["tan", "yellow", "dust", "dry"],
+      "stops": ["#fff0c0", "#e8c47a", "#c08a3e", "#6a4718"],
+      "base": "#160e04",
+      "accent": "#fff0c0",
+      "animation": { "mode": "wave", "color": "#e8c47a" },
+      "live": "flow"
+    },
+    {
+      "id": "pubg-coastal-green",
+      "name": "Coastal Green",
+      "description": "Island green fading into turquoise coastal water",
+      "tags": ["green", "turquoise", "coast", "island"],
+      "stops": ["#eaffe0", "#8fe28a", "#2fae6a", "#0a6a6a"],
+      "base": "#04160e",
+      "accent": "#c8fff0",
+      "animation": { "mode": "wave", "color": "#2fae6a" },
+      "live": "flow"
+    },
+    {
+      "id": "pubg-midnight-marsh",
+      "name": "Midnight Marsh",
+      "description": "Murky green marshland lit only by a pale moon",
+      "tags": ["green", "black", "night", "marsh"],
+      "stops": ["#d9ffb0", "#8fce3a", "#2f6a1a", "#123a10"],
+      "base": "#061006",
+      "accent": "#eaffd0",
+      "animation": { "mode": "reactive-off", "color": "#8fce3a" },
+      "live": "trip"
+    },
+    {
+      "id": "pubg-rust-convoy",
+      "name": "Rust Convoy",
+      "description": "A line of rusted metal glowing copper in low sun",
+      "tags": ["orange", "copper", "rust", "metal"],
+      "stops": ["#ffdca0", "#e0954a", "#b0561e", "#5a2a0a"],
+      "base": "#160a04",
+      "accent": "#ffcf8a",
+      "animation": { "mode": "snake", "color": "#e0954a" },
+      "live": "flow"
+    },
+    {
+      "id": "pubg-final-circle",
+      "name": "Final Circle",
+      "description": "A last golden ring glowing bright before the match ends",
+      "tags": ["gold", "white", "circle", "final"],
+      "stops": ["#fff8e0", "#ffd966", "#e0a020", "#8a5008"],
+      "base": "#1a1204",
+      "accent": "#fff8e0",
+      "animation": { "mode": "circle-wave", "color": "#ffd966" },
+      "live": "breathe"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[package]
+name = "keylume-core"
+description = "Application core: device service (worker thread), profile store, settings, backup."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+keylume-proto = { path = "../keylume-proto" }
+keylume-device = { path = "../keylume-device" }
+keylume-profiles = { path = "../keylume-profiles" }
+keylume-live = { path = "../keylume-live" }
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+hidapi = { version = "2.6", default-features = false }
+getrandom = "0.3"
+ed25519-dalek = "2"
+
+[dev-dependencies]
+tempfile = "3"

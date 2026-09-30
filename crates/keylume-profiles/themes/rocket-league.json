@@ -1,0 +1,101 @@
+{
+  "collection": "Rocket League",
+  "prefix": "rl",
+  "section": "Games",
+  "keys": [
+    { "role": "driving", "keys": ["w", "a", "s", "d"] },
+    { "role": "powerslide-air-roll", "keys": ["lshift"] },
+    { "role": "camera", "keys": ["space", "tab"] },
+    { "role": "item", "keys": ["r"] }
+  ],
+  "themes": [
+    {
+      "id": "rl-boost-trail",
+      "name": "Boost Trail",
+      "description": "A streak of electric blue burning off the back of a sprint",
+      "tags": ["blue", "cyan", "speed", "boost"],
+      "stops": ["#bfe8ff", "#4ad0ff", "#0a90ff", "#0a2a80"],
+      "base": "#04102a",
+      "accent": "#ffffff",
+      "animation": { "mode": "line-wave", "color": "#4ad0ff" },
+      "live": "flow"
+    },
+    {
+      "id": "rl-full-throttle",
+      "name": "Full Throttle",
+      "description": "Orange flame trailing a car pushed flat-out to the limit",
+      "tags": ["orange", "red", "speed", "flame"],
+      "stops": ["#ffe08a", "#ff8a1a", "#ff3300", "#7a0a00"],
+      "base": "#1c0600",
+      "accent": "#fff066",
+      "animation": { "mode": "meteor", "color": "#ff3300" },
+      "live": "lava"
+    },
+    {
+      "id": "rl-arena-lights",
+      "name": "Arena Lights",
+      "description": "Cold white floodlights blazing over a packed night arena",
+      "tags": ["white", "blue", "stadium", "lights"],
+      "stops": ["#ffffff", "#dcefff", "#7ab8ff", "#1a4a9a"],
+      "base": "#081428",
+      "accent": "#ffffff",
+      "animation": { "mode": "dazzle", "color": "#7ab8ff" },
+      "live": "breathe"
+    },
+    {
+      "id": "rl-chrome-finish",
+      "name": "Chrome Finish",
+      "description": "Polished chrome paint mirroring cool blue and silver light",
+      "tags": ["silver", "blue", "chrome", "car"],
+      "stops": ["#ffffff", "#dbe6f2", "#9ab0c8", "#3a4a5a"],
+      "base": "#0c1218",
+      "accent": "#e8f4ff",
+      "animation": { "mode": "sine-wave", "color": "#9ab0c8" },
+      "live": "flow"
+    },
+    {
+      "id": "rl-goal-flash",
+      "name": "Goal Flash",
+      "description": "A bright amber-gold burst lighting up the crowd after a goal",
+      "tags": ["gold", "white", "celebration", "flash"],
+      "stops": ["#fff8e0", "#ffdd66", "#f0a800", "#a05e00"],
+      "base": "#1c0f00",
+      "accent": "#ffffff",
+      "animation": { "mode": "circle-wave", "color": "#ffcc33" },
+      "live": "flow"
+    },
+    {
+      "id": "rl-aerial-drift",
+      "name": "Aerial Drift",
+      "description": "Purple sky trailing a car mid-flip high above the pitch",
+      "tags": ["purple", "blue", "sky", "trick"],
+      "stops": ["#e0d0ff", "#a878ff", "#6a3ad0", "#241a6a"],
+      "base": "#0e0a2a",
+      "accent": "#f0e8ff",
+      "animation": { "mode": "kaleidoscope", "color": "#a878ff" },
+      "live": "trip"
+    },
+    {
+      "id": "rl-midnight-pitch",
+      "name": "Midnight Pitch",
+      "description": "A dark stadium pitch lit only by cool violet floodlight glow",
+      "tags": ["purple", "black", "night", "stadium"],
+      "stops": ["#c8b0ff", "#7a4ae0", "#3a1a90", "#12082a"],
+      "base": "#080418",
+      "accent": "#c8b0ff",
+      "animation": { "mode": "breathing", "color": "#7a4ae0" },
+      "live": "breathe"
+    },
+    {
+      "id": "rl-trophy-gold",
+      "name": "Trophy Gold",
+      "description": "Polished champagne gold shine of a hard-won trophy",
+      "tags": ["gold", "white", "trophy", "shine"],
+      "stops": ["#ffffff", "#f5e6c8", "#c9a24a", "#7a5a2a"],
+      "base": "#201808",
+      "accent": "#ffffff",
+      "animation": { "mode": "converge", "color": "#ffcf40" },
+      "live": "breathe"
+    }
+  ]
+}
