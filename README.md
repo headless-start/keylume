@@ -11,14 +11,20 @@
 ![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20Linux-4f46e5)
 [![Licence: MIT](https://img.shields.io/badge/licence-MIT-0891b2)](LICENSE)
 
-![Keylume's home screen: the keyboard drawn the way it's lit, with its name, the look on its keys and its status](docs/images/home.webp)
+<img src="docs/images/home.webp" width="860" alt="Keylume's home screen: a white TK68 on screen going through designs as the keyboard shows them: a rainbow wave, a vivid per-key pattern, a rainbow vortex, a flag, a warm gradient and a rainbow dazzle">
+
+**About 1,400 designs · per-key lighting · the keyboard's own animations · live effects · key remapping · shareable design packs · nothing leaves your PC**
+
+[**Download for Windows and Linux**](https://github.com/headless-start/keylume/releases/latest) · free, no account
 
 </div>
 
 Keylume is a desktop app for the lighting and keys of an RGB mechanical keyboard. Open it
-and your keyboard is on screen, lit exactly as it is; click it to choose from about 1,400
-designs, make your own, remap keys or change the keyboard's settings. Everything runs on
-your PC: no account, no cloud, no telemetry.
+and your keyboard is on screen, lit exactly as it is; click it to pick a design, make your
+own, remap keys or change the keyboard's settings. Everything runs on your PC: no account,
+no cloud, no telemetry.
+
+<img src="docs/images/browse.webp" width="100%" alt="The Library in use: open the Themes section, pick the Space collection, filter to animated designs, hover cards to watch them play, and click one to put it on the keyboard, where the side panel plays it big">
 
 ## Why it exists
 
@@ -37,34 +43,48 @@ the first board rather than the only one.
 
 ## What you can do
 
-- **Pick from a large library.** Games (each on its default keys, lit by role), comics,
-  myths, nature, cities, colours, 194 flags and effects: about 1,400 designs in more than
-  31,000 looks, all redrawn for the shape of the keyboard that's plugged in. Search by word
-  or colour, keep favourites, or let it surprise you.
-- **Make your own.** Paint keys, tune the keyboard's own animations, build live effects that
-  follow your music, the screen's colour or a timer, or spell words across the keys.
-- **Remap keys.** Any key on the three onboard profiles and the Fn layer, plus recorded
-  macros. On 60 and 65 % boards, Fn + the number row gives F1 … F12. Changes are stored on
-  the keyboard, so they work on any computer.
-- **Change the keyboard's settings.** Polling rate, debounce, sleep timers, Windows-key
-  lock, WASD swap, onboard profiles, and a full backup and restore of the keyboard.
-- **Share designs as packs.** A `.keylumepack` file holds themes and hand-made designs,
-  signed with the maker's key: give it away, or sell it.
-- **See true colours.** Colours are corrected for how LEDs emit light, so orange, pink and
-  pastels come out close to what's on screen.
+### Pick from a library made for your keyboard
 
-![The Library opens on Discover: favourites, then every collection as a picture](docs/images/discover.webp)
+Games (each on its default keys, lit by role), comics, myths, nature, cities, colours,
+194 flags and effects: about 1,400 designs in more than 31,000 looks, all redrawn for the
+shape of the keyboard that's plugged in. Search by word or colour, keep favourites, or let it
+surprise you. Point at a design and it plays; click it and it's on the keyboard.
+
+<img src="docs/images/library-hover.webp" width="100%" alt="Library cards playing their animations as the pointer moves over them">
 
 <table>
 <tr>
-<td><img src="docs/images/library.webp" alt="A design open in the Library with all of its looks"></td>
-<td><img src="docs/images/create.webp" alt="Create: a rainbow wave on the keyboard and its settings"></td>
+<td width="50%"><img src="docs/images/games.webp" alt="A game design on its default keys, lit by role: movement, abilities and items in their own colours"></td>
+<td width="50%"><img src="docs/images/flags.webp" alt="Flags of European countries drawn on the keys"></td>
 </tr>
 <tr>
-<td><img src="docs/images/games.webp" alt="A game design on its default keys, lit by role"></td>
-<td><img src="docs/images/library-hover.webp" alt="Library cards playing their animations under the pointer"></td>
+<td align="center">Games, on their default keys</td>
+<td align="center">Flags of the world</td>
 </tr>
 </table>
+
+### Make your own
+
+Paint keys, tune the keyboard's own animations (eighteen of them, from waves to kaleidoscopes),
+build live effects that follow your music, the screen's colour or a timer, or spell words
+across the keys. What you change is on the keyboard at once.
+
+<img src="docs/images/create.webp" width="100%" alt="Create: clicking through the keyboard's animations, kaleidoscope, circle wave, dazzle, sine wave and line wave, each playing on the keyboard at once">
+
+### And the rest
+
+- **Keys.** Remap any key on the three onboard profiles and the Fn layer, and record
+  macros. On 60 and 65 % boards, Fn + the number row gives F1 … F12. Changes are stored on
+  the keyboard, so they work on any computer.
+- **Keyboard settings.** Polling rate, debounce, sleep timers, Windows-key lock, WASD swap,
+  onboard profiles, and a full backup and restore of the keyboard.
+- **Design packs.** A `.keylumepack` file holds themes and hand-made designs, signed with
+  the maker's key: give it away, or sell it.
+- **True colours.** Colours are corrected for how LEDs emit light, so orange, pink and
+  pastels come out close to what's on screen.
+
+The clips come from the app itself, running against its simulated keyboard
+(`tools/readme_shots.mjs` films them).
 
 ## Tech stack
 
